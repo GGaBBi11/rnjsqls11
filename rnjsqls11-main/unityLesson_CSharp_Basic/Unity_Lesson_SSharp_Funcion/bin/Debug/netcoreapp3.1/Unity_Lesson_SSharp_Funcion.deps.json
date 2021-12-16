@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Unity_Lesson_SSharp_Funcion/1.0.0": {
+        "runtime": {
+          "Unity_Lesson_SSharp_Funcion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity_Lesson_SSharp_Funcion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

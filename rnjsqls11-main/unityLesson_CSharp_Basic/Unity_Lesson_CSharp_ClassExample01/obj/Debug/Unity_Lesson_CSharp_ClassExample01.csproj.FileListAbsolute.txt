@@ -1,0 +1,7 @@
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ClassExample01\bin\Debug\Unity_Lesson_CSharp_ClassExample01.exe.config
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ClassExample01\bin\Debug\Unity_Lesson_CSharp_ClassExample01.exe
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ClassExample01\bin\Debug\Unity_Lesson_CSharp_ClassExample01.pdb
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ClassExample01\obj\Debug\Unity_Lesson_CSharp_ClassExample01.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ClassExample01\obj\Debug\Unity_Lesson_CSharp_ClassExample01.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ClassExample01\obj\Debug\Unity_Lesson_CSharp_ClassExample01.exe
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ClassExample01\obj\Debug\Unity_Lesson_CSharp_ClassExample01.pdb

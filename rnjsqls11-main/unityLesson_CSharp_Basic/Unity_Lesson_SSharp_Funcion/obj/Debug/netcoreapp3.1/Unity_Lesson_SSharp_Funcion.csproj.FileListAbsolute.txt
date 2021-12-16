@@ -1,0 +1,13 @@
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\bin\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.exe
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\bin\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.deps.json
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\bin\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.runtimeconfig.json
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\bin\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.runtimeconfig.dev.json
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\bin\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.dll
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\bin\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.pdb
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\obj\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.csproj.AssemblyReference.cache
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\obj\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.AssemblyInfoInputs.cache
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\obj\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.AssemblyInfo.cs
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\obj\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.csproj.CoreCompileInputs.cache
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\obj\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.dll
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\obj\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.pdb
+C:\Users\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_SSharp_Funcion\obj\Debug\netcoreapp3.1\Unity_Lesson_SSharp_Funcion.genruntimeconfig.cache

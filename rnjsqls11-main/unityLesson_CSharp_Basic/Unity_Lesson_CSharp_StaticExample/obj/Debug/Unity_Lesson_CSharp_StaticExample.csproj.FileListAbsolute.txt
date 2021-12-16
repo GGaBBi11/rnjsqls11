@@ -1,0 +1,6 @@
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_StaticExample\bin\Debug\Unity_Lesson_CSharp_StaticExample.exe.config
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_StaticExample\bin\Debug\Unity_Lesson_CSharp_StaticExample.exe
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_StaticExample\bin\Debug\Unity_Lesson_CSharp_StaticExample.pdb
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_StaticExample\obj\Debug\Unity_Lesson_CSharp_StaticExample.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_StaticExample\obj\Debug\Unity_Lesson_CSharp_StaticExample.exe
+C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_StaticExample\obj\Debug\Unity_Lesson_CSharp_StaticExample.pdb
