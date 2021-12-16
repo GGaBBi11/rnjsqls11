@@ -1,0 +1,8 @@
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\obj\Debug\Practice.csproj.SuggestedBindingRedirects.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\bin\Debug\Practice.exe.config
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\bin\Debug\Practice.exe
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\bin\Debug\Practice.pdb
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\obj\Debug\Practice.exe
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Practice\obj\Debug\Practice.pdb
