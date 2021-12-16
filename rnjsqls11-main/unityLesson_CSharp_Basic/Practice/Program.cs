@@ -70,7 +70,7 @@ namespace Practice
         public char genderChar;  // 성별
         public bool isResting;   // 쉬고있는지?
 
-        public void Information()
+        public void Information() // 오크 정보 출력 소스코드
         {
             이름();
             키();
@@ -123,7 +123,7 @@ namespace Practice
         public char genderChar;  // 성별
         public bool isResting;   // 쉬고있는지?
 
-        public void Information()
+        public void Information() // 오크2 정보 출력 소스코드
         {
             이름();
             키();
