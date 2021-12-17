@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unityLesson_CSharp_program", "unityLesson_CSharp_program\unityLesson_CSharp_program.csproj", "{AF1464DA-650F-44F5-B186-410E0D44814F}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_ClassExample01", "Unity_Lesson_CSharp_ClassExample01\Unity_Lesson_CSharp_ClassExample01.csproj", "{B89DFB9E-EF57-496C-B07E-D358ED9A3AEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_StaticExample", "Unity_Lesson_CSharp_StaticExample\Unity_Lesson_CSharp_StaticExample.csproj", "{F5BBB44E-C7DA-414F-91E8-B3B636C81790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_Operator", "Unity_Lesson_CSharp_Operator\Unity_Lesson_CSharp_Operator.csproj", "{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{F5BBB44E-C7DA-414F-91E8-B3B636C81790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5BBB44E-C7DA-414F-91E8-B3B636C81790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BBB44E-C7DA-414F-91E8-B3B636C81790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

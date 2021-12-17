@@ -10,12 +10,12 @@ namespace Unity_Lesson_CSharp_ClassExample01
         {
             Orc orc1 = new Orc();
 
-            orc1.name = "상급 오크"; //이름
-            orc1.height = 240.4f;      //키
-            orc1.weight = 200.1f;      //몸무게
-            orc1.age = 140;         //나이
-            orc1.genderChar = '남';        //성별 
-            orc1.isResting = false;       //쉬고있는지?
+            orc1.name = "상급 오크";        //이름
+            orc1.height = 240.4f;           //키
+            orc1.weight = 200.1f;           //몸무게
+            orc1.age = 140;                 //나이
+            orc1.genderChar = '남';         //성별 
+            orc1.isResting = false;         //쉬고있는지?
 
             orc1.Information();
 

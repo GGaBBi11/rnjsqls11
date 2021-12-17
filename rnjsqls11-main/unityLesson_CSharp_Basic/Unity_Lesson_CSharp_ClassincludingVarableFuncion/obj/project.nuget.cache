@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YUW5cIufQ6ojMqNPhUFfYreM/oGhqfJm/FVPrvhMQ0PB3ddr/IiGZLYrA3iy8k+zNru5KiUIsqPGK2764r/u+w==",
+  "dgSpecHash": "azelL4Ea/mdj1CAZrUMEF87Wz1AtmiR/gj9qAaV54HS4vAm3c26uXW/tbArXTdqsapjVLHgomNVf8+61xnsp/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\Unity_Lesson_CSharp_ClassincludingVarableFuncion\\Unity_Lesson_CSharp_ClassincludingVarableFuncion.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\Unity_Lesson_CSharp_ClassincludingVarableFuncion\\Unity_Lesson_CSharp_ClassincludingVarableFuncion.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
