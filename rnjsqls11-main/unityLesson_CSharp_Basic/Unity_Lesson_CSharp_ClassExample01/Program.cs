@@ -1,88 +1,168 @@
 ﻿using System;
 
+
 namespace Unity_Lesson_CSharp_ClassExample01
 {
-    class Program
-    {
 
-        static void Main(string[] args)
+    class Program // 오크 출력 프로그램
+    {
+        static void Main(string[] args) // 오크 출력 메인 함수
         {
             Orc orc1 = new Orc();
-            orc1.name = "상급오크";
-            orc1.height = 240.2f;
-            orc1.weight = 200.0f;
-            orc1.age = 140;
-            orc1.genderChar = '남';
-            orc1.isResting = false;
 
-            Orc orc2 = new Orc();
-            orc2.name = "하급오크";
-            orc2.height = 140.4f;
-            orc2.weight = 120.0f;
-            orc2.age = 60;
-            orc2.genderChar = '여';
-            orc2.isResting = true;
+            orc1.name = "상급 오크"; //이름
+            orc1.height = 240.4f;      //키
+            orc1.weight = 200.1f;      //몸무게
+            orc1.age = 140;         //나이
+            orc1.genderChar = '남';        //성별 
+            orc1.isResting = false;       //쉬고있는지?
 
-            orc1.Jump();
-            orc1.Smash();
-            orc2.Jump();
-            orc2.Smash();
+            orc1.Information();
 
-            if (orc1.isResting)
+
+            Orc_02 orc2 = new Orc_02();
+
+            orc2.name = "하급 오크";        //이름
+            orc2.height = 200.4f;           //키 
+            orc2.weight = 160.5f;           //몸무게
+            orc2.age = 100;                 //나이
+            orc2.genderChar = '여';         //성별
+            orc2.isResting = true;          //쉬고있는지?
+
+            orc2.Information();
+
+
+
+
+            if (orc1.isResting) // 참과 거짓 조건 소스 코드
             {
-                orc1.Jump();
                 orc1.Smash();
             }
-            else 
+            else if (orc1.isResting)
             {
-                Console.WriteLine($"{orc1.name}은 바쁘다");
-            }
-            if (orc2.isResting)
-            {
-                orc2.Jump();
-                orc2.Smash();
+                orc1.Jump();
             }
             else
             {
-                Console.WriteLine($"{orc2.name}은 바쁘다");
+                Console.WriteLine($"\n{orc1.name}은 바쁘다.");
+            }
+            if (orc2.isResting)
+            {
+                orc2.Smash();
+            }
+            else if (orc2.isResting)
+            {
+                orc2.Jump();
+            }
+            else
+            {
+                Console.WriteLine($"\n{orc2.name}(은)는 바쁘다.");
             }
         }
     }
-    class Orc
+
+    class Orc // 오크 클래스 설계도 프로그램
     {
-        public string name;         //이름
-        public float height;        //키
-        public float weight;        //몸무게
-        public int age;             //나이
-        public char genderChar;     //성별
-        public bool isResting;       //쉬고있는지?
+        public string name;      // 이름
+        public float height;     // 키
+        public float weight;     // 몸무게
+        public int age;          // 나이
+        public char genderChar;  // 성별
+        public bool isResting;   // 쉬고있는지?
 
-        public void Smash() 
+        public void Information() // 오크 정보 출력 소스코드
         {
-            Console.WriteLine($"{name} (이)가 휘둘렀다.");
+            이름();
+            키();
+            몸무게();
+            나이();
+            성별();
+            쉬고있는지();
         }
-        public void Jump() 
+        public void 이름()
         {
-            Console.WriteLine($"{name} 점프했다.");
+            Console.WriteLine($"이름\t:{name}");
         }
-    }
-
-    class orc2 
-    {
-        public string name;          //이름
-        public float height;         //키
-        public float weight;         //몸무게
-        public int age;              //나이
-        public char genderChar;      //성별
-        public bool isFemale;        //쉬고있는지?
-
+        public void 키()
+        {
+            Console.WriteLine($"키\t:{height}");
+        }
+        public void 몸무게()
+        {
+            Console.WriteLine($"몸무게\t:{weight}");
+        }
+        public void 나이()
+        {
+            Console.WriteLine($"나이\t:{age}");
+        }
+        public void 성별()
+        {
+            Console.WriteLine($"성별\t:{genderChar}");
+        }
+        public void 쉬고있는지()
+        {
+            Console.WriteLine($"쉬고있다:{isResting}");
+        }
         public void Smash()
         {
-            Console.WriteLine("");
+            Console.WriteLine($"\n{name}(이)가 휘둘렀다.");
         }
         public void Jump()
         {
-            Console.WriteLine("");
+            Console.WriteLine($"{name}(이)가 점프했다.");
+        }
+
+    }
+
+    class Orc_02 // 오크2 클래스 설계도
+    {
+        public string name;      // 이름
+        public float height;     // 키
+        public float weight;     // 몸무게
+        public int age;          // 나이
+        public char genderChar;  // 성별
+        public bool isResting;   // 쉬고있는지?
+
+        public void Information() // 오크2 정보 출력 소스코드
+        {
+            이름();
+            키();
+            몸무게();
+            나이();
+            성별();
+            쉬고있는지();
+        }
+        public void 이름()
+        {
+            Console.WriteLine($"\n이름\t:{name}");
+        }
+        public void 키()
+        {
+            Console.WriteLine($"키\t:{height}");
+        }
+        public void 몸무게()
+        {
+            Console.WriteLine($"몸무게\t:{weight}");
+        }
+        public void 나이()
+        {
+            Console.WriteLine($"나이\t:{age}");
+        }
+        public void 성별()
+        {
+            Console.WriteLine($"성별\t:{genderChar}");
+        }
+        public void 쉬고있는지()
+        {
+            Console.WriteLine($"쉬고있다:{isResting}");
+        }
+        public void Smash()
+        {
+            Console.WriteLine($"{name}(이)가 휘둘렀다.");
+        }
+        public void Jump()
+        {
+            Console.WriteLine($"{name}(이)가 점프했다.");
         }
     }
 }
