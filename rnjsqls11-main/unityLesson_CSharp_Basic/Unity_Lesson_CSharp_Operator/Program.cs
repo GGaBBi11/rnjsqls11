@@ -13,15 +13,15 @@ namespace Unity_Lesson_CSharp_Operator
             // 더하기(+), 빼기(-), 나누기(/), 곱하기(*), 나머지
             Console.WriteLine("산술 연산");
 
-            c = FunctionsForOperation.더하기(a, b);            //더하기
+            c = FunctionsForOperation.Sum(a, b);            //더하기
             Console.WriteLine(c);
-            c = FunctionsForOperation.빼기(a, b);              //빼기
+            c = FunctionsForOperation.Sub(a, b);              //빼기
             Console.WriteLine(c);
-            c = FunctionsForOperation.곱하기(a, b);            //나누기
+            c = FunctionsForOperation.Mul(a, b);            //나누기
             Console.WriteLine(c);
-            c = FunctionsForOperation.나누기(a, b);            //곱하기
+            c = FunctionsForOperation.Div(a, b);            //곱하기
             Console.WriteLine(c);
-            c = FunctionsForOperation.나누기(a, b);            //나머지
+            c = FunctionsForOperation.Mod(a, b);            //나머지
             Console.WriteLine(c);
 
             // 증감 연산
