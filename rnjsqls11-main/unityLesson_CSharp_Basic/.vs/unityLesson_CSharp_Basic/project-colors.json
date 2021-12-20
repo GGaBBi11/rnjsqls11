@@ -50,7 +50,12 @@
       "ProjectGuid": "a14733c7-9860-48fb-9071-0813ca2ed839",
       "DisplayName": "Unity_Lesson_Chsarp_IF",
       "ColorIndex": 9
+    },
+    "ad6877f4-0edb-4a1b-9f6f-51b7712def9b": {
+      "ProjectGuid": "ad6877f4-0edb-4a1b-9f6f-51b7712def9b",
+      "DisplayName": "Unity_Lesson_CSharp_Operator",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }
