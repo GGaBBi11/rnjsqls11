@@ -27,19 +27,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ForYou\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unity_Lesson_Csharp_Varlables\\unity_Lesson_Csharp_Varlables.csproj",
+      "projectUniqueName": "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unity_Lesson_Csharp_Varlables\\unity_Lesson_Csharp_Varlables.csproj",
       "projectName": "unity_Lesson_Csharp_Varlables",
-      "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unity_Lesson_Csharp_Varlables\\unity_Lesson_Csharp_Varlables.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unity_Lesson_Csharp_Varlables\\obj\\",
+      "projectPath": "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unity_Lesson_Csharp_Varlables\\unity_Lesson_Csharp_Varlables.csproj",
+      "packagesPath": "C:\\Users\\ForYou\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unity_Lesson_Csharp_Varlables\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ForYou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +58,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unityLesson_CSharp_program\\unityLesson_CSharp_program.csproj": {
-              "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unityLesson_CSharp_program\\unityLesson_CSharp_program.csproj"
+            "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unityLesson_CSharp_program\\unityLesson_CSharp_program.csproj": {
+              "projectPath": "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\unityLesson_CSharp_program\\unityLesson_CSharp_program.csproj"
             }
           }
         }
@@ -78,12 +83,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

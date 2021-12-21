@@ -12,37 +12,33 @@ namespace UnityLesson_CSharp_ForLoopExample
         {
  
             Orc[] arr_Orc = new Orc[10];
-
             int lenght = arr_Orc.Length;
             for (int i = 0; i < lenght; i++)
             {
                 arr_Orc[i] = new Orc();
                 arr_Orc[i].name = $"오크{i}";
+                Console.WriteLine(arr_Orc[i].name);
             }
-            arr_Orc[0].isResting = true;
-            arr_Orc[1].isResting = true;
-            arr_Orc[2].isResting = true;
-            arr_Orc[3].isResting = true;
-            arr_Orc[4].isResting = true;
-            arr_Orc[5].isResting = true;
-            arr_Orc[6].isResting = false;
-            arr_Orc[7].isResting = true;
-            arr_Orc[8].isResting = true;
-            arr_Orc[9].isResting = false;
-            
-            for (int i = 0; i < length; i++)
+            for (int i = 0; i < lenght; i++)
+            {
+                arr_Orc[i].isResting = GetRandomBool();
+            }
+            for (int i = 0; i < lenght; i++)
             {
                 if (arr_Orc[i].isResting)
                 {
                     arr_Orc[i].Jump();
                 }
             }
+        }
+        static public bool GetRandomBool()
+        {
+            Random rand = new Random();
+            bool value = Convert.ToBoolean(rand.Next(0, 2));
 
+            return value;
         }
     }
-
-
-
 
     class Orc
 
@@ -117,5 +113,3 @@ namespace UnityLesson_CSharp_ForLoopExample
     }
 
 } 
-
-}
