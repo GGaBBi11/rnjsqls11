@@ -65,7 +65,12 @@
       "ProjectGuid": "46433263-72a2-4d84-b2c6-09c42de409f5",
       "DisplayName": "UnityLesson_CSharp_ForLoop",
       "ColorIndex": 12
+    },
+    "2408cbf3-b279-4b69-bdde-c24ca9f89b6c": {
+      "ProjectGuid": "2408cbf3-b279-4b69-bdde-c24ca9f89b6c",
+      "DisplayName": "Unity_Lesson_CSharp_ForLoopExample",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 14
 }

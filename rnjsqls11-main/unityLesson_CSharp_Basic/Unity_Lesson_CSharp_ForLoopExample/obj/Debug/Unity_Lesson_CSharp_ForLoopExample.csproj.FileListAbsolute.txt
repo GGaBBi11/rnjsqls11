@@ -1,0 +1,8 @@
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\bin\Debug\Unity_Lesson_CSharp_ForLoopExample.exe.config
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\bin\Debug\Unity_Lesson_CSharp_ForLoopExample.exe
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\bin\Debug\Unity_Lesson_CSharp_ForLoopExample.pdb
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\obj\Debug\Unity_Lesson_CSharp_ForLoopExample.csproj.AssemblyReference.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\obj\Debug\Unity_Lesson_CSharp_ForLoopExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\obj\Debug\Unity_Lesson_CSharp_ForLoopExample.csproj.CoreCompileInputs.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\obj\Debug\Unity_Lesson_CSharp_ForLoopExample.exe
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_ForLoopExample\obj\Debug\Unity_Lesson_CSharp_ForLoopExample.pdb
