@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_StaticE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_Operator", "Unity_Lesson_CSharp_Operator\Unity_Lesson_CSharp_Operator.csproj", "{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_Array", "UnityLesson_CSharp_Array\UnityLesson_CSharp_Array.csproj", "{7071E6EC-0C60-459A-806C-646227D7D0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_WhileLoop", "Unity_Lesson_CSharp_WhileLoop\Unity_Lesson_CSharp_WhileLoop.csproj", "{E6C45494-C379-4810-B5F9-FFCFA075BC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_ForLoop", "UnityLesson_CSharp_ForLoop\UnityLesson_CSharp_ForLoop.csproj", "{46433263-72A2-4D84-B2C6-09C42DE409F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_ForLoopExample", "UnityLesson_CSharp_ForLoopExample\UnityLesson_CSharp_ForLoopExample.csproj", "{5B2013FA-88BC-410C-88B8-BE98DB1361B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +77,22 @@ Global
 		{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD6877F4-0EDB-4A1B-9F6F-51B7712DEF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7071E6EC-0C60-459A-806C-646227D7D0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7071E6EC-0C60-459A-806C-646227D7D0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7071E6EC-0C60-459A-806C-646227D7D0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7071E6EC-0C60-459A-806C-646227D7D0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C45494-C379-4810-B5F9-FFCFA075BC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C45494-C379-4810-B5F9-FFCFA075BC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C45494-C379-4810-B5F9-FFCFA075BC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C45494-C379-4810-B5F9-FFCFA075BC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46433263-72A2-4D84-B2C6-09C42DE409F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46433263-72A2-4D84-B2C6-09C42DE409F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46433263-72A2-4D84-B2C6-09C42DE409F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46433263-72A2-4D84-B2C6-09C42DE409F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2013FA-88BC-410C-88B8-BE98DB1361B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2013FA-88BC-410C-88B8-BE98DB1361B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2013FA-88BC-410C-88B8-BE98DB1361B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2013FA-88BC-410C-88B8-BE98DB1361B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

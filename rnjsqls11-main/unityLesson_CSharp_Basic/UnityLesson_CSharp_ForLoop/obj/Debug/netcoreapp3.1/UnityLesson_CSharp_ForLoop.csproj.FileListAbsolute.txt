@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\bin\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.exe
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\bin\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.deps.json
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\bin\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\bin\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\bin\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.dll
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\bin\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.pdb
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\obj\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\obj\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\obj\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\obj\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.dll
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\obj\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.pdb
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\UnityLesson_CSharp_ForLoop\obj\Debug\netcoreapp3.1\UnityLesson_CSharp_ForLoop.genruntimeconfig.cache
