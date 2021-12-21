@@ -11,3 +11,17 @@ C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic
 C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.dll
 C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.pdb
 C:\Users\admin\Documents\GitHub\GGaBBi11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.genruntimeconfig.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\bin\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.exe
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\bin\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.deps.json
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\bin\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.runtimeconfig.json
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\bin\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.runtimeconfig.dev.json
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\bin\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.dll
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\bin\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.pdb
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.csproj.AssemblyReference.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.AssemblyInfoInputs.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.AssemblyInfo.cs
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.csproj.CoreCompileInputs.cache
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.dll
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.pdb
+C:\Users\ForYou\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_CSharp_InstantationOfClass\obj\Debug\netcoreapp3.1\Unity_CSharp_InstantationOfClass.genruntimeconfig.cache
