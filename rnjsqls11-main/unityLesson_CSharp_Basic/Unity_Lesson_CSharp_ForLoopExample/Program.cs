@@ -11,24 +11,28 @@ namespace UnityLesson_CSharp_ForLoopExample
         static void Main(string[] args)
         {
 
-            Orc[] arr_Orc = new Orc[10];
+            Orc[] arr_Orc = new Orc[10];               // 길이가 10인 Orc 타입의 배열을 선언한다.   
             int lenght = arr_Orc.Length;
-            for (int i = 0; i < lenght; i++)
+            for (int i = 0; i < lenght; i++)   
             {
-                arr_Orc[i] = new Orc();
+                arr_Orc[i] = new Orc();                // 길이가 10인 Orc 타입 배열의 i번째공간에 오크타입 객체를 생성해서 넣어줬다.
                 arr_Orc[i].name = $"오크{i}";
-            }
-            for (int i = 0; i < lenght; i++)
-            {
                 arr_Orc[i].isResting = GetRandomBool();
             }
             for (int i = 0; i < lenght; i++)
             {
-                if (arr_Orc[i].isResting)
+                if (i < 5)
                 {
-                    arr_Orc[i].Jump();
-                    arr_Orc[i].Smash();
+                    if (arr_Orc[i].isResting)
+                    {
+                        arr_Orc[i].Jump();
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
+
             }
         }
         static public bool GetRandomBool()

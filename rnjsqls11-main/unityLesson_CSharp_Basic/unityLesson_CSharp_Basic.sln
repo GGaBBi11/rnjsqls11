@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unityLesson_CSharp_program", "unityLesson_CSharp_program\unityLesson_CSharp_program.csproj", "{AF1464DA-650F-44F5-B186-410E0D44814F}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_ForLoop", "UnityLesson_CSharp_ForLoop\UnityLesson_CSharp_ForLoop.csproj", "{46433263-72A2-4D84-B2C6-09C42DE409F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_ForLoopExample", "Unity_Lesson_CSharp_ForLoopExample\Unity_Lesson_CSharp_ForLoopExample.csproj", "{2408CBF3-B279-4B69-BDDE-C24CA9F89B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_Collection", "Unity_Lesson_CSharp_Collection\Unity_Lesson_CSharp_Collection.csproj", "{175686C4-1D48-4666-8950-F7812BDD4D19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{2408CBF3-B279-4B69-BDDE-C24CA9F89B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2408CBF3-B279-4B69-BDDE-C24CA9F89B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2408CBF3-B279-4B69-BDDE-C24CA9F89B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175686C4-1D48-4666-8950-F7812BDD4D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175686C4-1D48-4666-8950-F7812BDD4D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175686C4-1D48-4666-8950-F7812BDD4D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175686C4-1D48-4666-8950-F7812BDD4D19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
