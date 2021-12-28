@@ -93,9 +93,41 @@ namespace Unity_Lesson_CSharp_Collection
                 Console.WriteLine($"{tmpKey} : {tmpValue}");
             }
 
-            
 
-           // _dic.Remove("검사"); // dic_Remove key와 그의 대한 정의 까지 탐색해 삭제해준다.
+
+            // _dic.Remove("검사"); // dic_Remove key와 그의 대한 정의 까지 탐색해 삭제해준다.
+            //=================================================================================
+            // Queue // (List와 비슷하나, FIFO (Firest Input, First Ouput) 체계이다)
+            //=================================================================================
+
+            Console.WriteLine("\nQueue");
+
+            Queue<int> _queue = new Queue<int>();
+
+            _queue.Enqueue(10); 
+            _queue.Enqueue(20);
+            _queue.Enqueue(30);
+
+            Console.WriteLine(_queue.Peek());       // 가장 첫번째에 있는 값을 반환
+            Console.WriteLine(_queue.Dequeue());    // 가장 첫번째에 있는 값을 제거하고 반환
+            Console.WriteLine(_queue.Dequeue());
+            Console.WriteLine(_queue.Dequeue());
+
+            //=================================================================================
+            // Stack (List와 비슷하나 , LIFO(Last Input, First Output 체계이다.))
+            //=================================================================================
+
+            Console.WriteLine("\nStack");
+            Stack<int> _stack = new Stack<int>();
+
+            _stack.Push(10);
+            _stack.Push(20);
+            _stack.Push(30);
+         
+            Console.WriteLine(_stack.Peek());   // 가장 마지막에 있는 값을 반환 (Queue의 반대)
+            Console.WriteLine(_stack.Pop());
+            Console.WriteLine(_stack.Pop());
+            Console.WriteLine(_stack.Pop());
         }
     }
 }
