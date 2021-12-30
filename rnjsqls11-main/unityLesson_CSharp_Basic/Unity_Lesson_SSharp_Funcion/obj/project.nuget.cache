@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KC0AhaIYSqEicPUEgcxKfGO49YnLQN37cEc0tK8BW2j+mPZYC/E/FWbzZwCQ+/7V9qJeu6HTFIVaSfPAZEKqAQ==",
+  "dgSpecHash": "k2Dk2TR9nyt2BWhV0f2HDm5c19pisLeLX2ncOB+SghZWMTsCITF7FH+dcpHoaFG/TCW8m/Tj/aZD+/STPMjRjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\Unity_Lesson_SSharp_Funcion\\Unity_Lesson_SSharp_Funcion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\Unity_Lesson_SSharp_Funcion\\Unity_Lesson_SSharp_Funcion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
