@@ -1,0 +1,7 @@
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_Structure\bin\Debug\Unity_Lesson_CSharp_Structure.exe.config
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_Structure\bin\Debug\Unity_Lesson_CSharp_Structure.exe
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_Structure\bin\Debug\Unity_Lesson_CSharp_Structure.pdb
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_Structure\obj\Debug\Unity_Lesson_CSharp_Structure.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_Structure\obj\Debug\Unity_Lesson_CSharp_Structure.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_Structure\obj\Debug\Unity_Lesson_CSharp_Structure.exe
+C:\Users\admin\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_Structure\obj\Debug\Unity_Lesson_CSharp_Structure.pdb

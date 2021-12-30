@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_Collect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_Enum", "Unity_Lesson_CSharp_Enum\Unity_Lesson_CSharp_Enum.csproj", "{FE90A84D-A615-4A76-92EC-31B3FC4FEEDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_Structure", "Unity_Lesson_CSharp_Structure\Unity_Lesson_CSharp_Structure.csproj", "{9EBEBB55-ECF7-4EF7-9926-C4A59035FD88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_GarbageCollector", "Unity_Lesson_CSharp_GarbageCollector\Unity_Lesson_CSharp_GarbageCollector.csproj", "{2962BC56-396E-4F9A-97EC-2C644F983D2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{FE90A84D-A615-4A76-92EC-31B3FC4FEEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE90A84D-A615-4A76-92EC-31B3FC4FEEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE90A84D-A615-4A76-92EC-31B3FC4FEEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBEBB55-ECF7-4EF7-9926-C4A59035FD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBEBB55-ECF7-4EF7-9926-C4A59035FD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBEBB55-ECF7-4EF7-9926-C4A59035FD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBEBB55-ECF7-4EF7-9926-C4A59035FD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2962BC56-396E-4F9A-97EC-2C644F983D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2962BC56-396E-4F9A-97EC-2C644F983D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2962BC56-396E-4F9A-97EC-2C644F983D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2962BC56-396E-4F9A-97EC-2C644F983D2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

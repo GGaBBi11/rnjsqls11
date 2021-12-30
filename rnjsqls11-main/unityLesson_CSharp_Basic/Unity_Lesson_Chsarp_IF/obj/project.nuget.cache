@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S8XIXUvi88FrHpv8vIXCnzsGIVQDmO7fKZadxphZR92LXUTgG7kCSFuyNClqWV5G32/ngEO6xeRdTZmg8hFvqg==",
+  "dgSpecHash": "qcGMOty/oO667DSuPNB5uuHsWQTcAwkwLxKL9aKVoAlaXZ3yhlMNwGaF1wCwBYZobERQ7SjvAwEEFt+tNRrUuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ForYou\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\Unity_Lesson_Chsarp_IF\\Unity_Lesson_Chsarp_IF.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\ForYou\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\Unity_Lesson_Chsarp_IF\\Unity_Lesson_Chsarp_IF.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
