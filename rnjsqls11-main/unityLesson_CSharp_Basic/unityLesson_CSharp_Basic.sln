@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_Structu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_GarbageCollector", "Unity_Lesson_CSharp_GarbageCollector\Unity_Lesson_CSharp_GarbageCollector.csproj", "{2962BC56-396E-4F9A-97EC-2C644F983D2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uinity_Lesson_CSharp_ClassInheritance", "Uinity_Lesson_\Uinity_Lesson_CSharp_ClassInheritance.csproj", "{66C51D3A-8C80-419B-B631-DC276D0CE529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_Lesson_CSharp_SOLID", "Unity_Lesson_CSharp_SOLID\Unity_Lesson_CSharp_SOLID.csproj", "{B6686E8C-CE67-49FD-BEC6-54DA5C488559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{2962BC56-396E-4F9A-97EC-2C644F983D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2962BC56-396E-4F9A-97EC-2C644F983D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2962BC56-396E-4F9A-97EC-2C644F983D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C51D3A-8C80-419B-B631-DC276D0CE529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C51D3A-8C80-419B-B631-DC276D0CE529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C51D3A-8C80-419B-B631-DC276D0CE529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C51D3A-8C80-419B-B631-DC276D0CE529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6686E8C-CE67-49FD-BEC6-54DA5C488559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6686E8C-CE67-49FD-BEC6-54DA5C488559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6686E8C-CE67-49FD-BEC6-54DA5C488559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6686E8C-CE67-49FD-BEC6-54DA5C488559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
