@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vByNZp5o2mfqhMp60Wxv4/zVFRXnJ1b81fdPIt4C/kUEHjs3NNE0mqMqRrB9JuXGqwYk/kQRU9iw0f/QrCuXdg==",
+  "dgSpecHash": "+E0ZSyGcf3RR4e5rfLprm91uouzTYoLfr3g9j2D49XaqdqCby1calTL0OudmPwvjSG63dGf0qm5zVJe8jrrwdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\UnityLesson_CSharp_Class_Object_instance\\UnityLesson_CSharp_Class_Object_instance.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\UnityLesson_CSharp_Class_Object_instance\\UnityLesson_CSharp_Class_Object_instance.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

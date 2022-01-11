@@ -52,4 +52,11 @@ namespace unityLesson_CSharp_program
             Console.WriteLine("Hello World!");
         }
     }
+
+    {
+    // 선언
+    public interface TestFunction(int a, int b, int c);
+    
+    //
+    }
 }
