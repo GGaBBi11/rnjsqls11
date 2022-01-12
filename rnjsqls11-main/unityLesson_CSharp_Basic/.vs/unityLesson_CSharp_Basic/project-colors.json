@@ -120,7 +120,17 @@
       "ProjectGuid": "175686c4-1d48-4666-8950-f7812bdd4d19",
       "DisplayName": "Unity_Lesson_CSharp_Collection",
       "ColorIndex": 6
+    },
+    "959045b6-1709-4182-88b4-156a9acdc6b3": {
+      "ProjectGuid": "959045b6-1709-4182-88b4-156a9acdc6b3",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 7
+    },
+    "e21b2d2e-9a01-4897-a596-34518aa61f73": {
+      "ProjectGuid": "e21b2d2e-9a01-4897-a596-34518aa61f73",
+      "DisplayName": "UnityLesson_CSharp_DiceGame",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

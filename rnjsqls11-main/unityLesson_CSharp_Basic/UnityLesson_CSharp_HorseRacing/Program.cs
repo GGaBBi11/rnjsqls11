@@ -17,64 +17,65 @@ While 반복문에서 Thread.Sleep(1000); 을 추가하면 1초에 한번씩 반
 */
 namespace UnityLesson_CSharp_HorseRacing
 {
+
     class Program
     {
-        static bool isGameFinished = false;
-        static int finishDistance = 200;
-        static int currentGrade = 1;
-        static Random random;
+        static Random random;               // 말이 랜덤하게 움직일수있는 명령체계 설정(함수 선언)
+        static int minSpeed = 10;           // 말의 최소 움직임
+        static int maxSpeed = 20;           // 말의 쵀대 움직임
+        static int finishDistance = 200;    // 200까지 움직일수 있도록 변수 선언
+        static bool isGameFinished = false; // 경주가 끝나면 말이 더이상 움직이 않도록 bool형식 변수 선언
+
         static void Main(string[] args)
         {
-        
-            Horse[] arr_Horse = new Horse[5];
+            Horse[] arr_Horse = new Horse[5];               // 인스턴스화 (말을 5마리를 배열로 생성)
+            string[] arr_FinishedHorseName = new string[5]; // 경주가 끝난말 이름 인스턴스화 (배열로 생성)
+            int currentGrade = 1;                           // 
 
-            string[] arr_FinisheHorseName = new string[5];
-
-            int length = arr_Horse.Length;
-
-            for (int i = 0; i < arr_Horse.Length; i++)
+            int length = arr_Horse.Length;    // Length 를 직접넣는건 좋지않다.
+            for (int i = 0; i < length; i++)
             {
                 arr_Horse[i] = new Horse();
                 arr_Horse[i].name = "경주마" + i;
             }
-
             Console.WriteLine("경주 시작!");
- 
-
-
-
-
-            while (isGameFinished)
+            int count = 0;
+            while (isGameFinished == false)
             {
+                Console.WriteLine($" ================ {count++} 초 ================ ");
+
                 for (int i = 0; i < length; i++)
                 {
-                    random = new Random();
-                    int tmpMoveDistance = random.Next(10, 21);
-                    arr_Horse[i].Run(tmpMoveDistance);
-                    Console.WriteLine($"{arr_Horse[i].name}의 위치 : {arr_Horse[i].distance}");
-                    if (arr_Horse[i].distance >= finishDistance)
+                    if (arr_Horse[i].dontMove == false)
                     {
-                        arr_FinisheHorseName[currentGrade - 1] = arr_Horse[i].name;
-                        currentGrade++;
-
+                        random = new Random();
+                        int tmpMoveDistance = random.Next(minSpeed, maxSpeed + 1);
+                        arr_Horse[i].Run(tmpMoveDistance);
+                        Console.WriteLine($"{arr_Horse[i].name}가 달린거리 : {arr_Horse[i].distance}");
+                        if (arr_Horse[i].distance >= finishDistance)
+                        {
+                            arr_Horse[i].dontMove = true;
+                            arr_FinishedHorseName[currentGrade - 1] = arr_Horse[i].name;
+                            currentGrade++;
+                        }
                     }
                 }
-
-                if(currentGrade > 5)
+                if (currentGrade > 5)
                 {
-                    isGameFinished = true;
-                    Console.WriteLine("경주 끝");
-                    break;
+                    isGameFinished = true;          
+                    Console.WriteLine("경주 종료!");      
                 }
 
-                Thread.Sleep(1000);
+                Thread.Sleep(1000); // 1000 ms = 1 sec.
             }
 
-            Console.WriteLine("결과발표 : ");
-            for (int i = 0; i < arr_FinisheHorseName.Length; i++)
+            Console.WriteLine("=====결과 발표=====");
+            for (int i = 0; i < length+1; i++)
             {
-                Console.WriteLine($"{i}등 : {arr_FinisheHorseName[i]}");
+                Console.WriteLine($"{i + 1} 등 : {arr_FinishedHorseName[i]}");
             }
         }
+
     }
 }
+  

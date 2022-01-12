@@ -10,9 +10,11 @@ namespace UnityLesson_CSharp_HorseRacing
     {
         public string name;
         public int distance;
+        public bool dontMove;
 
         public void Run(int moveDistance)
         {
+            if (dontMove) return;  // return <- 함수를 끝낸다는 선언
             distance += moveDistance;
         }
     }
