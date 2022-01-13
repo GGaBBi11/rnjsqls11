@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnityLesson_CSharp_DiceGame
+namespace UnityLesson_CSharp_DiceGame1
 {
     internal class Tileinfo_Star : Tileinfo
     {

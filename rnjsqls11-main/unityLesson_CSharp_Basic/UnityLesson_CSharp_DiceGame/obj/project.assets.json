@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\UnityLesson_CSharp_DiceGame\\UnityLesson_CSharp_DiceGame.csproj",
-      "projectName": "UnityLesson_CSharp_DiceGame",
-      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\UnityLesson_CSharp_DiceGame\\UnityLesson_CSharp_DiceGame.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\UnityLesson_CSharp_DiceGame\\UnityLesson_CSharp_DiceGame1.csproj",
+      "projectName": "UnityLesson_CSharp_DiceGame1",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\UnityLesson_CSharp_DiceGame\\UnityLesson_CSharp_DiceGame1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Documents\\GitHub\\rnjsqls11\\rnjsqls11-main\\unityLesson_CSharp_Basic\\UnityLesson_CSharp_DiceGame\\obj\\",
       "projectStyle": "PackageReference",

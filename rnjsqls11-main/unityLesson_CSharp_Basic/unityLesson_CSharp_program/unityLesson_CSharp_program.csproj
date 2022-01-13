@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UnityLesson_CSharp_HorseRacing\UnityLesson_CSharp_HorseRacing.csproj" />
+  </ItemGroup>
+
 </Project>

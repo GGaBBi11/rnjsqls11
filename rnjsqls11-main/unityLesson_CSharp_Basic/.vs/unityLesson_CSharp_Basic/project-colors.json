@@ -128,9 +128,14 @@
     },
     "e21b2d2e-9a01-4897-a596-34518aa61f73": {
       "ProjectGuid": "e21b2d2e-9a01-4897-a596-34518aa61f73",
-      "DisplayName": "UnityLesson_CSharp_DiceGame",
+      "DisplayName": "UnityLesson_CSharp_DiceGame1",
       "ColorIndex": 8
+    },
+    "fec1a5ff-72dc-4886-a6cc-5a6b1053489b": {
+      "ProjectGuid": "fec1a5ff-72dc-4886-a6cc-5a6b1053489b",
+      "DisplayName": "12",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

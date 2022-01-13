@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Unity_Lesson_CSharp_ClassincludingVariableFuncion
+namespace Unity_Lesson_CSharp_ClassincludingVarableFuncion
 {
     class Program
     {
@@ -50,7 +50,7 @@ namespace Unity_Lesson_CSharp_ClassincludingVariableFuncion
          */
 
         // 이 사람에 대한 모든 정보를 말한다.
-        void SayAllinfo() 
+        void SayAllinfo()
         {
             SayAge();
             SayHeight();

@@ -1,0 +1,8 @@
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\bin\Debug\Unity_Lesson_CSharp_SOLID.exe.config
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\bin\Debug\Unity_Lesson_CSharp_SOLID.exe
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\bin\Debug\Unity_Lesson_CSharp_SOLID.pdb
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\obj\Debug\Unity_Lesson_CSharp_SOLID.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\obj\Debug\Unity_Lesson_CSharp_SOLID.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\obj\Debug\Unity_Lesson_CSharp_SOLID.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\obj\Debug\Unity_Lesson_CSharp_SOLID.exe
+C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\Unity_Lesson_CSharp_SOLID\obj\Debug\Unity_Lesson_CSharp_SOLID.pdb

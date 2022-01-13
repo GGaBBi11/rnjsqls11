@@ -47,7 +47,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_Delegate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_HorseRacing", "UnityLesson_CSharp_HorseRacing\UnityLesson_CSharp_HorseRacing.csproj", "{76F810DD-1456-4A0F-861C-CDCF28B787D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_DiceGame", "UnityLesson_CSharp_DiceGame\UnityLesson_CSharp_DiceGame.csproj", "{E21B2D2E-9A01-4897-A596-34518AA61F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_DiceGame1", "UnityLesson_CSharp_DiceGame\UnityLesson_CSharp_DiceGame1.csproj", "{E21B2D2E-9A01-4897-A596-34518AA61F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

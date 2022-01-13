@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "UnityLesson_CSharp_HorseRacing/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/UnityLesson_CSharp_HorseRacing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityLesson_CSharp_HorseRacing.dll": {}
+        }
+      },
       "unityLesson_CSharp_program/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UnityLesson_CSharp_HorseRacing": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/unityLesson_CSharp_program.dll": {}
         },
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "UnityLesson_CSharp_HorseRacing/1.0.0": {
+      "type": "project",
+      "path": "../UnityLesson_CSharp_HorseRacing/UnityLesson_CSharp_HorseRacing.csproj",
+      "msbuildProject": "../UnityLesson_CSharp_HorseRacing/UnityLesson_CSharp_HorseRacing.csproj"
+    },
     "unityLesson_CSharp_program/1.0.0": {
       "type": "project",
       "path": "../unityLesson_CSharp_program/unityLesson_CSharp_program.csproj",
@@ -78,31 +96,19 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "UnityLesson_CSharp_HorseRacing 프로젝트가 netcoreapp3.1(.NETCoreApp,Version=v3.1)과(와) 호환되지 않습니다. UnityLesson_CSharp_HorseRacing 프로젝트는 다음을 지원합니다. net6.0(.NETCoreApp,Version=v6.0)",
+      "libraryId": "UnityLesson_CSharp_HorseRacing",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
