@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnityLesson_CSharp_DiceGame1
 {
-    internal class Tileinfo
+    internal class TileInfo
     {
         public int index;                        // 몇번째 칸인지 에 대한 정보
         public string name;                      // 칸의 이름
