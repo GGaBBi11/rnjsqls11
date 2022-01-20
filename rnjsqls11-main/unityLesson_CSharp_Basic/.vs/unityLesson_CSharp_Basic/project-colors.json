@@ -135,7 +135,12 @@
       "ProjectGuid": "fec1a5ff-72dc-4886-a6cc-5a6b1053489b",
       "DisplayName": "12",
       "ColorIndex": 9
+    },
+    "450e8574-c77b-4814-9bb4-01b7a7e4b9b0": {
+      "ProjectGuid": "450e8574-c77b-4814-9bb4-01b7a7e4b9b0",
+      "DisplayName": "의사코드 세분화",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }

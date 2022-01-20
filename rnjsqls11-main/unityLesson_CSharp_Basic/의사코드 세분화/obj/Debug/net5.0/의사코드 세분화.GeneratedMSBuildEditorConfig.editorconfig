@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = 의사코드_세분화
+build_property.ProjectDir = C:\Users\User\Documents\GitHub\rnjsqls11\rnjsqls11-main\unityLesson_CSharp_Basic\의사코드 세분화\

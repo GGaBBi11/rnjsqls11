@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_HorseRac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_DiceGame1", "UnityLesson_CSharp_DiceGame\UnityLesson_CSharp_DiceGame1.csproj", "{E21B2D2E-9A01-4897-A596-34518AA61F73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "의사코드 세분화", "의사코드 세분화\의사코드 세분화.csproj", "{450E8574-C77B-4814-9BB4-01B7A7E4B9B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{E21B2D2E-9A01-4897-A596-34518AA61F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E21B2D2E-9A01-4897-A596-34518AA61F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E21B2D2E-9A01-4897-A596-34518AA61F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450E8574-C77B-4814-9BB4-01B7A7E4B9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450E8574-C77B-4814-9BB4-01B7A7E4B9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450E8574-C77B-4814-9BB4-01B7A7E4B9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450E8574-C77B-4814-9BB4-01B7A7E4B9B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
