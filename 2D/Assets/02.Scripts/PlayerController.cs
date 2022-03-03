@@ -55,7 +55,14 @@ public class PlayerController : MonoBehaviour
     float dashAttackTime;
 
     // kinematics
-    public Vector2 KnockBackForce;
+    public Vector2 knockBackForce;
+
+    // casting
+    public Vector2 attackCastingCenter;
+    public Vector2 attackCastingSize;
+    public Vector2 attackCastingDirection;
+    public LayerMask attackTargetLayer;
+    public int attackDamage = 5;
     private void Awake()
     {
         player = GetComponent<Player>();
@@ -291,7 +298,22 @@ public class PlayerController : MonoBehaviour
             case AttackState.Attacking:
                 if(animationTimeElapsed > attackTime)
                 {
+                    RaycastHit2D hit = Physics2D.BoxCast(rb.position + attackCastingCenter,
+                                        attackCastingSize, 0f,
+                                        attackCastingDirection, attackTargetLayer);
+                     if(hit.collider != null)
+                     {
+                        Enemy enemy = null;
+                        if(hit.collider.TryGetComponent(out enemy))
+                        {
+                            enemy.hp -= attackDamage;
+                        }
+                        
+                     }
                     attackState = AttackState.Attacked;
+                }
+                else if (animationTimeElapsed > attackTime /2)
+                {
                 }
                 animationTimeElapsed += Time.deltaTime;
                 break;
@@ -416,7 +438,17 @@ public class PlayerController : MonoBehaviour
         if (player.invincible) return;
         move = Vector2.zero;
         rb.velocity = Vector2.zero;
-        rb.AddForce(new Vector2(KnockBackForce.x * (-direction), KnockBackForce.y), ForceMode2D.Impulse);
+        rb.AddForce(new Vector2(knockBackForce.x * (-direction), knockBackForce.y), ForceMode2D.Impulse);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+
+        Gizmos.DrawWireCube(new Vector3(transform.position.x + attackCastingCenter.x,
+                                        transform.position.y + attackCastingCenter.y,
+                                        0f));
+                            new Vector3(attackCastingSize.x,attackCastingSize.y,0f);
     }
     public enum PlayerState
     {
