@@ -15,6 +15,7 @@ public class FollowCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        tr.position = new Vector3(target.position.x - 0.5f, tr.position.y, target.position.z - 6f);
+        tr.LookAt(target);
     }
 }

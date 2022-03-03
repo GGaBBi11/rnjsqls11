@@ -337,9 +337,9 @@ public class PlayerController : MonoBehaviour
                 dashState = DashState.Dashing;
                 break;
             case DashState.Dashing:
-                if(animationTimeElapsed < dashTime * 3/4)
+                if(animationTimeElapsed < dashTime * 0.5f)
                 {
-                    move.x = direction * moveSpeed * 1.2f;
+                    move.x = direction * moveSpeed * 1.3f;
                 }
                 else
                 {
@@ -443,12 +443,12 @@ public class PlayerController : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
+        Gizmos.color = Color.red;
 
         Gizmos.DrawWireCube(new Vector3(transform.position.x + attackCastingCenter.x,
                                         transform.position.y + attackCastingCenter.y,
-                                        0f));
-                            new Vector3(attackCastingSize.x,attackCastingSize.y,0f);
+                                        0f),
+                            new Vector3(attackCastingSize.x, attackCastingSize.y, 0f));
     }
     public enum PlayerState
     {
