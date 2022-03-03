@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     Transform tr;
     Rigidbody2D rb;
     BoxCollider2D col;
+    Player player;
     public float moveSpeed;
     public float jumpForce;
     Vector2 move; // direction vector (방향 벡터), 여기서는 크기가 1이 넘어가도 사용함.
@@ -52,8 +53,12 @@ public class PlayerController : MonoBehaviour
     float attackTime;
     float dashTime;
     float dashAttackTime;
+
+    // kinematics
+    public Vector2 KnockBackForce;
     private void Awake()
     {
+        player = GetComponent<Player>();
         tr = GetComponent<Transform>();
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
@@ -404,6 +409,14 @@ public class PlayerController : MonoBehaviour
             isOK = true;
         }
         return isOK;
+    }
+
+    public void KnockBack()
+    {
+        if (player.invincible) return;
+        move = Vector2.zero;
+        rb.velocity = Vector2.zero;
+        rb.AddForce(new Vector2(KnockBackForce.x * (-direction), KnockBackForce.y), ForceMode2D.Impulse);
     }
     public enum PlayerState
     {

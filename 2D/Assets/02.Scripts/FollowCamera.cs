@@ -9,7 +9,7 @@ public class FollowCamera : MonoBehaviour
 
     private void Awake()
     {
-
+        tr = GetComponent<Transform>();
     }
 
     // Update is called once per frame
