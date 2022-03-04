@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -10,12 +11,20 @@ public class Enemy : MonoBehaviour
     {
         set
         {
-            _hp = value;
+            int tmpValue = value;
+            if (tmpValue <= 0)
+                tmpValue = 0;
+            _hp = tmpValue;
+            hpBar.value = (float)_hp / hpMax;
         }
         get { return _hp; }
             
     }
+
+    
     public int hpMax;
+    public Slider hpBar;
+    public Text hpText;
     public int damage = 2;
 
     private void Awake()

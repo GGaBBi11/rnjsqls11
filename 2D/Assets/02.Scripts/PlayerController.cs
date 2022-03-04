@@ -8,12 +8,13 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     BoxCollider2D col;
     Player player;
+    Enemy enemy;
     public float moveSpeed;
     public float jumpForce;
     Vector2 move; // direction vector (방향 벡터), 여기서는 크기가 1이 넘어가도 사용함.
 
     int _direction;
-    int direction
+    public int direction
     {
         set
         {
@@ -34,6 +35,7 @@ public class PlayerController : MonoBehaviour
     public AttackState attackState;
     public DashState dashState;
     public DashAttackState dashAttackState;
+    public EdgeGrabState edgeGrabState;
 
     public bool isAttacking
     {
@@ -46,6 +48,7 @@ public class PlayerController : MonoBehaviour
 
     // Detectors
     PlayerGroundDetector groundDetector;
+    PlayerGroundDetector edgeDetector;
 
     // animation
     Animator animator;
@@ -65,6 +68,7 @@ public class PlayerController : MonoBehaviour
     public int attackDamage = 5;
     private void Awake()
     {
+        enemy = GetComponent<Enemy>();
         player = GetComponent<Player>();
         tr = GetComponent<Transform>();
         rb = GetComponent<Rigidbody2D>();
@@ -220,6 +224,9 @@ public class PlayerController : MonoBehaviour
             case PlayerState.DashAttack:
                 dashAttackState = DashAttackState.Idle;
                 break;
+            case PlayerState.EdgeGrap:
+                edgeGrabState = EdgeGrabState.Idle;
+                break;
             default:
                 break;
         }
@@ -244,6 +251,9 @@ public class PlayerController : MonoBehaviour
                 UpdateDashState();
                 break;
             case PlayerState.DashAttack:
+                break;
+            case PlayerState.EdgeGrap:
+                UpdateEdgeGrap();
                 break;
             default:
                 break;
@@ -407,6 +417,28 @@ public class PlayerController : MonoBehaviour
                 break;
         }
     }
+    void UpdateEdgeGrap()
+    {
+        switch (edgeGrabState)
+        {
+            case EdgeGrabState.Idle:
+                break;
+            case EdgeGrabState.PrepareToEdgeGrap:
+                animator.Play("EdgeGrabIdle");
+                rb.bodyType = RigidbodyType2D.Kinematic;
+                move = Vector2.zero;
+                rb.velocity = Vector2.zero;
+                rb.position = Vector2.zero;
+                edgeGrabState = EdgeGrabState.Graged;
+                break;
+            case EdgeGrabState.Grabbing:
+                break;
+            case EdgeGrabState.Graged:
+                break;
+            default:
+                break;
+        }
+    }
 
     private bool IsDirectionChangePossible()
     {
@@ -458,6 +490,7 @@ public class PlayerController : MonoBehaviour
         Attack,
         Dash,
         DashAttack,
+        EdgeGrap,
     }
     public enum JumpState
     {
@@ -493,5 +526,13 @@ public class PlayerController : MonoBehaviour
         PrepareToDashAttack,
         DashingAttacking,
         DashAttacked,
+    }
+
+    public enum EdgeGrabState
+    {
+        Idle,
+        PrepareToEdgeGrap,
+        Grabbing,
+        Graged
     }
 }
