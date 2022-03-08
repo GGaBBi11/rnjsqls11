@@ -54,8 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\NoteData.cs" />
-    <Compile Include="Assets\02.Scripts\SongData.cs" />
     <Compile Include="Assets\02.Scripts\NotesMaker.cs" />
+    <Compile Include="Assets\02.Scripts\SongData.cs" />
+    <Compile Include="Assets\02.Scripts\SongSelector.cs" />
+    <Compile Include="Assets\02.Scripts\Note.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
