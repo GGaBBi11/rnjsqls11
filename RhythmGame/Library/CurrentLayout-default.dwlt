@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 60
+  controlID: 124
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 61
+  controlID: 41
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 62650000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 004cffffe85bffff6873fffff07affff067bffff247bffff3e84ffffbe84ffff308dffff2a94ffff8c95ffffa295ffffbc95ffffe295ffff2099ffffc499ffff7ecfffff98cfffffaacfffffc0cfffff06d0ffff80d0ffff02d1ffff3ce9ffff6ae9ffff84e9ffffbee9ffff98eaffff84f3ffff46f9ffff64fbfffff4ffffffde4200001e590000e65e00002c6000006861000072610000d2610000946400009e640000446500004e650000
+      m_ExpandedIDs: 0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -484,9 +484,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30430000
-    m_LastClickedID: 17200
-    m_ExpandedIDs: 00000000264300003243000000ca9a3b
+    m_SelectedIDs: 9e430000
+    m_LastClickedID: 17310
+    m_ExpandedIDs: 000000009443000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -514,7 +514,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026430000
+    m_ExpandedIDs: 0000000094430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,22 +541,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ea420000000000002c4c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: NoteManager
-      m_OriginalName: NoteManager
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 25960
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
@@ -626,7 +626,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -639,7 +639,7 @@ MonoBehaviour:
       y: 21
       width: 985
       height: 418
-    m_Scale: {x: 0.38703704, y: 0.38703704}
+    m_Scale: {x: 0.40648147, y: 0.40648147}
     m_Translation: {x: 492.5, y: 209}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -647,12 +647,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1272.488
-      y: -540
-      width: 2544.976
-      height: 1080
+      x: -1211.6173
+      y: -514.1686
+      width: 2423.2346
+      height: 1028.3372
     m_MinimalGUI: 1
-  m_defaultScale: 0.38703704
+  m_defaultScale: 0.40648147
   m_LastWindowPixelSize: {x: 985, y: 439}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
