@@ -5,7 +5,20 @@ using UnityEngine;
 public class NoteManager : MonoBehaviour
 {
     static public NoteManager instance;
-    public Transform noteSpawnersTransfrom;
+    static public float noteFallingSpeed = 3f;
+
+    Transform noteSpawnersTransfrom;
+    Transform noteHittersTransform;
+    public float noteFallingDistance
+    {
+        get { return noteSpawnersTransfrom.position.y - noteHittersTransform.position.y; }
+    }
+
+    public float noteFallingTime
+    {
+        get { return noteFallingDistance / noteFallingSpeed; }
+    }
+
     Dictionary<KeyCode, NoteSpawner> spanwers = new Dictionary<KeyCode, NoteSpawner>();
     public Queue<NoteData> queue = new Queue<NoteData>();
     // Start is called before the first frame update
@@ -13,6 +26,7 @@ public class NoteManager : MonoBehaviour
     {
         instance = this;
         noteSpawnersTransfrom = transform.Find("NoteSpawners");
+        noteHittersTransform = transform.Find("NoteHitters");
         NoteSpawner[] tmpSpawners = noteSpawnersTransfrom.GetComponentsInChildren<NoteSpawner>();
         foreach (NoteSpawner spawner in tmpSpawners)
         {
@@ -40,7 +54,7 @@ public class NoteManager : MonoBehaviour
         {
             for (int i = 0; i < queue.Count; i++)
             {
-                if (queue.Peek().time < GamePlay.instance.palyTime)
+                if (queue.Peek().time < GamePlay.instance.playTime)
                 {
                     NoteData data = queue.Dequeue();
                     spanwers[data.keycode].SpawnNote();
@@ -50,5 +64,10 @@ public class NoteManager : MonoBehaviour
             }
             yield return null;
         }
+    }
+
+    public void StopSpawn()
+    {
+        StopAllCoroutines();
     }
 }
