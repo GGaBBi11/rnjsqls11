@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class LevelSelector : MonoBehaviour
 {
-    private string selectedLevelSceneName;
+    private string selectedSceneName;
     public void SelectLevel(string sceneName)
     {
-        selectedLevelSceneName = sceneName;
+        selectedSceneName = sceneName;
     }
     public void PlaySelectedLevel()
     {
-
-        GameManager.LoadSceneByName(selectedLevelSceneName);
+        GameManager.LoadSceneByName(selectedSceneName);
     }
 }

@@ -23,7 +23,11 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene(sceneName);
         }
-
+        else
+        {
+            Debug.Log($"Can't find scene of {sceneName}");
+            return;
+        }
     }
 }
 
