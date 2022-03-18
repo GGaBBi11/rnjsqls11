@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,6 +36,47 @@ public class ObjectPool : MonoBehaviour
                 ArrangePool(obj);
             }
         }
+    }
+
+    public static void ReturnToPool(GameObject obj)
+    {
+        if (!Instance.spawnedQueueDictionrary.ContainsKey(obj.name))
+            throw new Exception($"Pool doesn't include {obj.name}");
+        Instance.spawnedQueueDictionrary[obj.name].Enqueue(obj);
+    }
+
+    public static int GetSpawndObjerctNumber(string tag)
+    {
+        int count = 0;
+        foreach(var go in Instance.spawnedObjects)
+        {
+            if (go.name == tag &&
+                go.activeSelf)
+                count++;
+        }
+        return count;
+    }
+
+    public static GameObject SpawnFromPool(string tag, Vector3 position) =>
+        Instance.Spwan(tag, position);
+
+    private GameObject Spwan(string tag, Vector3 position)
+    {
+        if (!spawnedQueueDictionrary.ContainsKey(tag))
+            throw new System.Exception($"Pool dosen't contanis {tag}");
+
+        Queue<GameObject> queue = spawnedQueueDictionrary[tag];
+        if(queue.Count == 0)
+        {
+            PoolElement poolElement = poolElements.Find(x => x.tag == tag);
+            var obj= CreateNewObject(poolElement.tag, poolElement.prefab);
+            ArrangePool(obj);
+        }
+        GameObject objectToSpawn = queue.Dequeue();
+        objectToSpawn.transform.position = position;
+        objectToSpawn.transform.rotation = Quaternion.identity;
+        objectToSpawn.SetActive(true);
+        return objectToSpawn;
     }
 
     private GameObject CreateNewObject(string tag, GameObject prefab)
