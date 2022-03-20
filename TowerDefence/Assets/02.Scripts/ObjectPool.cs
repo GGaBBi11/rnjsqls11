@@ -6,7 +6,7 @@ using UnityEngine;
 public class ObjectPool : MonoBehaviour
 {
     private static ObjectPool _instance;
-    public static ObjectPool Instance
+    public static ObjectPool instance
     {
         get
         {
@@ -16,7 +16,7 @@ public class ObjectPool : MonoBehaviour
         }
     }
     List<PoolElement> poolElements = new List<PoolElement>();
-    List<GameObject> spawnedObjects = new List<GameObject> ();
+    List<GameObject> spawnedObjects = new List<GameObject>();
     Dictionary<string, Queue<GameObject>> spawnedQueueDictionrary = new Dictionary<string, Queue<GameObject>>();
 
     public void AddPoolElement(PoolElement poolElement)
@@ -27,8 +27,14 @@ public class ObjectPool : MonoBehaviour
 
     private void Start()
     {
-        foreach(PoolElement poolElement in poolElements)
+        StartCoroutine(E_Start());
+    }
+    IEnumerator E_Start()
+    {
+        yield return new WaitForEndOfFrame();
+        foreach (PoolElement poolElement in poolElements)
         {
+            Debug.Log($"pool element registered : {poolElement.tag}");
             spawnedQueueDictionrary.Add(poolElement.tag, new Queue<GameObject>());
             for (int i = 0; i < poolElement.size; i++)
             {
@@ -40,15 +46,15 @@ public class ObjectPool : MonoBehaviour
 
     public static void ReturnToPool(GameObject obj)
     {
-        if (!Instance.spawnedQueueDictionrary.ContainsKey(obj.name))
+        if (!instance.spawnedQueueDictionrary.ContainsKey(obj.name))
             throw new Exception($"Pool doesn't include {obj.name}");
-        Instance.spawnedQueueDictionrary[obj.name].Enqueue(obj);
+        instance.spawnedQueueDictionrary[obj.name].Enqueue(obj);
     }
 
-    public static int GetSpawndObjerctNumber(string tag)
+    public static int GetSpawnedObjectNumber(string tag)
     {
         int count = 0;
-        foreach(var go in Instance.spawnedObjects)
+        foreach(var go in instance.spawnedObjects)
         {
             if (go.name == tag &&
                 go.activeSelf)
@@ -58,7 +64,7 @@ public class ObjectPool : MonoBehaviour
     }
 
     public static GameObject SpawnFromPool(string tag, Vector3 position) =>
-        Instance.Spwan(tag, position);
+        instance.Spwan(tag, position);
 
     private GameObject Spwan(string tag, Vector3 position)
     {
@@ -89,7 +95,7 @@ public class ObjectPool : MonoBehaviour
 
     private void ArrangePool(GameObject obj)
     {
-        bool isSameObjectExist = false;
+        bool isSameNameExist = false;
         for (int i = 0; i < transform.childCount; i++)
         {
             if(i == transform.childCount - 1)
@@ -99,10 +105,8 @@ public class ObjectPool : MonoBehaviour
                 break;
             }
             else if (transform.GetChild(i).name == obj.name)
-            {
-                isSameObjectExist = true;
-            }
-            else if (isSameObjectExist)
+                isSameNameExist = true;
+            else if (isSameNameExist)
             {
                 obj.transform.SetSiblingIndex(i);
                 spawnedObjects.Insert(i, obj);

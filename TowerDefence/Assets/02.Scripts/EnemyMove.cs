@@ -5,9 +5,10 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     Transform tr;
-    int wayPointIndex   ;
-    public float speed = 0.5f;
-    Transform nextWayPoint;
+
+    public int wayPointIndex;
+    public float speed = 1f;
+    public Transform nextWayPoint;
     float originPosY;
     private void Awake()
     {
@@ -16,7 +17,7 @@ public class EnemyMove : MonoBehaviour
     }
     private void Start()
     {
-        nextWayPoint = WayPorint.points[0];
+        nextWayPoint = WayPoints.points[0];
     }
 
     private void OnDisable()
@@ -31,7 +32,7 @@ public class EnemyMove : MonoBehaviour
 
         if (Vector3.Distance(tr.position, targetPos) < 0.1f)
         {
-            if (WayPorint.TryNextWayPoint(wayPointIndex, out nextWayPoint))
+            if (WayPoints.TryNextWayPoint(wayPointIndex, out nextWayPoint))
             {
                 wayPointIndex++;
             }

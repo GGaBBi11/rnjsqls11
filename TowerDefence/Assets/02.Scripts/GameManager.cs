@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     {
         Scene targetScene = SceneManager.GetSceneByName(sceneName);
 
-        if (targetScene == null)
+        if (targetScene.IsValid())
         {
             SceneManager.LoadScene(sceneName);
         }

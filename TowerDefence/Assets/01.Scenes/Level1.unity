@@ -7499,13 +7499,15 @@ MonoBehaviour:
   - poolElement:
       tag: Cube
       prefab: {fileID: 3431097250347423958, guid: ac31c81a416296e4a91f7278368cc7f5, type: 3}
-      size: 10
-    spawnTimeGap: 2
+      size: 4
+    spawnTimeGap: 3.5
+    done: 0
   - poolElement:
       tag: Sphere
       prefab: {fileID: 2306250596858075123, guid: 62ea1b512ec74804885884c3a3bea2ec, type: 3}
       size: 10
-    spawnTimeGap: 2
+    spawnTimeGap: 1
+    done: 0
 --- !u!4 &1590508040
 Transform:
   m_ObjectHideFlags: 0
