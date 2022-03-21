@@ -18,9 +18,17 @@ public class Node : MonoBehaviour
     private void OnMouseEnter()
     {
         rend.material.color = buildAvailableColor;
+        if (TowerViewPresenter.instance.isSelected)
+        {
+            TowerViewPresenter.instance.GetTowerPreviewTransform().position = transform.position;
+        }
     }
     private void OnMouseExit()
     {
         rend.material.color = originColor;
+    }
+    private void OnMouseDown()
+    {
+           
     }
 }
