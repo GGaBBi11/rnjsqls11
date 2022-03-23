@@ -10,7 +10,7 @@ public class TowerInfo : ScriptableObject
 
 public enum TowerType
 {
-    Turret,
+    TuMachineGun,
     Missile,
     Laser,
 }
