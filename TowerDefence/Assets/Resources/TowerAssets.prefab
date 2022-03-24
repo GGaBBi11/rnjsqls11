@@ -44,6 +44,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towers:
-  - {fileID: 3504298079520075936, guid: f9944cafacf3c37429f1523c03b3e7aa, type: 3}
   - {fileID: 3504298079520075936, guid: 0df063a86e9943c41b1de3953336e5ba, type: 3}
+  - {fileID: 3504298079520075936, guid: 19d7e40e267860b4e9ef63a77f3988c0, type: 3}
+  - {fileID: 3504298079520075936, guid: 9d0a4ab392864b344ac5cedab35d1119, type: 3}
+  - {fileID: 3504298079520075936, guid: f9944cafacf3c37429f1523c03b3e7aa, type: 3}
+  - {fileID: 3504298079520075936, guid: cae3e7f5e0b2096459b07779aea71a80, type: 3}
+  - {fileID: 3504298079520075936, guid: 4bb99058b25255544851e57d0ee5c29f, type: 3}
   - {fileID: 3504298079520075936, guid: d2f94ba5e7549914cacb2b3f864ec836, type: 3}
+  - {fileID: 3504298079520075936, guid: 280741216b93caa4f9d42977a7790ebd, type: 3}
+  - {fileID: 3504298079520075936, guid: efc3417389dda8a48ac06894035aeca9, type: 3}
