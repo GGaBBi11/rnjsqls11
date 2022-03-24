@@ -57,7 +57,7 @@ public class Node : MonoBehaviour
             {
                 TowerUI.instance.UpgradePriceText.text = towerInfo.price.ToString();
                 TowerUI.instance.sellPriceText.text = (towerInfo.price * 0.8).ToString();
-                TowerUI.instance.transform.position = (transform.position + Vector3.up * 2);
+                TowerUI.instance.transform.position = transform.position + Vector3.up * 2;
                 TowerUI.instance.node = this;
                 TowerUI.instance.gameObject.SetActive(true);
             }
@@ -68,6 +68,7 @@ public class Node : MonoBehaviour
                 string towerName = previewTransform.GetComponent<TowerPreview>().towerName;
 
                 ObjectPool.SpawnFromPool(towerName,previewTransform.position);
+
                 if(TowerAssets.instance.TryGetTowerInfoByName(towerName, out TowerInfo tmptowerInfo))
                 {
                     // todo -> spend money : towerInfo.price

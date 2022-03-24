@@ -35,7 +35,7 @@ public class TowerAssets : MonoBehaviour
 
     public bool TryGetTowerName(TowerType type, int level, out string towerName)
     {
-        towerName =towers.Find(x => x.GetComponent<Tower>().info.Type == type &&
+        towerName =towers.Find(x => x.GetComponent<Tower>().info.type == type &&
                                     x.GetComponent<Tower>().info.level == level).name;
         return towerName.Length > 1 ? true : false;
     }
