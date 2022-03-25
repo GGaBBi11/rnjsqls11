@@ -10,6 +10,7 @@ public class Tower : MonoBehaviour
     public float detectRange;
 
     public Transform turretRotatePoint;
+    public Transform target;
     Transform tr;
     private void Awake()
     {
@@ -20,7 +21,7 @@ public class Tower : MonoBehaviour
         ObjectPool.ReturnToPool(gameObject);
     }
 
-    private void Update()
+    public virtual void Update()
     {
         Collider[] cols = Physics.OverlapSphere(tr.position,detectRange, enemyLayer);
         
@@ -28,7 +29,12 @@ public class Tower : MonoBehaviour
         if(cols.Length > 0)
         {
             cols.OrderBy(x => (x.transform.position - WayPoints.points.Last().transform.position));
+            target = cols[0].transform;
             turretRotatePoint.LookAt(cols[0].transform);
+        }
+        else
+        {
+            target = null;
         }
         
     }

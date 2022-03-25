@@ -247,7 +247,7 @@ Transform:
   m_GameObject: {fileID: 83852458}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 16
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &83852461
 BoxCollider:
@@ -358,7 +358,7 @@ Transform:
   m_GameObject: {fileID: 127857385}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 14
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &127857388
 BoxCollider:
@@ -469,7 +469,7 @@ Transform:
   m_GameObject: {fileID: 128608208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 52
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &128608211
 BoxCollider:
@@ -725,7 +725,7 @@ Transform:
   m_GameObject: {fileID: 170405372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 3
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &170405375
 BoxCollider:
@@ -1216,7 +1216,7 @@ Transform:
   m_GameObject: {fileID: 227421359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 24
@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &227421362
 BoxCollider:
@@ -1543,7 +1543,7 @@ Transform:
   m_GameObject: {fileID: 287243918}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 8
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &287243921
 BoxCollider:
@@ -1654,7 +1654,7 @@ Transform:
   m_GameObject: {fileID: 305607601}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 60
@@ -1672,7 +1672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &305607604
 BoxCollider:
@@ -1765,7 +1765,7 @@ Transform:
   m_GameObject: {fileID: 317652434}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 26
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &317652437
 BoxCollider:
@@ -1876,7 +1876,7 @@ Transform:
   m_GameObject: {fileID: 321949542}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 53
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &321949545
 BoxCollider:
@@ -1987,7 +1987,7 @@ Transform:
   m_GameObject: {fileID: 330877194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 47
@@ -2005,7 +2005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &330877197
 BoxCollider:
@@ -2253,7 +2253,7 @@ Transform:
   m_GameObject: {fileID: 392772794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 59
@@ -2271,7 +2271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &392772797
 BoxCollider:
@@ -2364,7 +2364,7 @@ Transform:
   m_GameObject: {fileID: 404509541}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 28
@@ -2382,7 +2382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &404509544
 BoxCollider:
@@ -2630,7 +2630,7 @@ Transform:
   m_GameObject: {fileID: 497372797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 10
@@ -2648,7 +2648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &497372800
 BoxCollider:
@@ -2989,7 +2989,7 @@ Transform:
   m_GameObject: {fileID: 539153974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 15
@@ -3007,7 +3007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &539153977
 BoxCollider:
@@ -3157,7 +3157,7 @@ Transform:
   m_GameObject: {fileID: 616408288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 43
@@ -3175,7 +3175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &616408291
 BoxCollider:
@@ -3268,7 +3268,7 @@ Transform:
   m_GameObject: {fileID: 628716854}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 40
@@ -3286,7 +3286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &628716857
 BoxCollider:
@@ -3474,7 +3474,7 @@ Transform:
   m_GameObject: {fileID: 707558711}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9, y: 0, z: -3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 56
@@ -3492,7 +3492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &707558714
 BoxCollider:
@@ -3664,7 +3664,7 @@ Transform:
   m_GameObject: {fileID: 717133886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 48
@@ -3682,7 +3682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &717133889
 BoxCollider:
@@ -3854,7 +3854,7 @@ Transform:
   m_GameObject: {fileID: 787668935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 22
@@ -3872,7 +3872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &787668938
 BoxCollider:
@@ -3965,7 +3965,7 @@ Transform:
   m_GameObject: {fileID: 842980721}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: 0, z: 3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 11
@@ -3983,7 +3983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &842980724
 BoxCollider:
@@ -4247,7 +4247,7 @@ Transform:
   m_GameObject: {fileID: 872688242}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 45
@@ -4265,7 +4265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &872688245
 BoxCollider:
@@ -4358,7 +4358,7 @@ Transform:
   m_GameObject: {fileID: 873485695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 25
@@ -4376,7 +4376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &873485698
 BoxCollider:
@@ -4469,7 +4469,7 @@ Transform:
   m_GameObject: {fileID: 897370182}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 55
@@ -4487,7 +4487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &897370185
 BoxCollider:
@@ -4754,7 +4754,7 @@ Transform:
   m_GameObject: {fileID: 936647386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 51
@@ -4772,7 +4772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &936647389
 BoxCollider:
@@ -4895,7 +4895,7 @@ Transform:
   m_GameObject: {fileID: 974833099}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 1
@@ -4913,7 +4913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &974833102
 BoxCollider:
@@ -5362,7 +5362,7 @@ Transform:
   m_GameObject: {fileID: 1009332612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 19
@@ -5380,7 +5380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1009332615
 BoxCollider:
@@ -5563,7 +5563,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043821515}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.7, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1299451927}
@@ -5884,7 +5884,7 @@ Transform:
   m_GameObject: {fileID: 1094786677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 20
@@ -5902,7 +5902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1094786680
 BoxCollider:
@@ -5995,7 +5995,7 @@ Transform:
   m_GameObject: {fileID: 1103270207}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 18
@@ -6013,7 +6013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1103270210
 BoxCollider:
@@ -6106,7 +6106,7 @@ Transform:
   m_GameObject: {fileID: 1103498298}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 38
@@ -6124,7 +6124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1103498301
 BoxCollider:
@@ -6217,7 +6217,7 @@ Transform:
   m_GameObject: {fileID: 1126374495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 23
@@ -6235,7 +6235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1126374498
 BoxCollider:
@@ -6423,7 +6423,7 @@ Transform:
   m_GameObject: {fileID: 1174102064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 13
@@ -6441,7 +6441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1174102067
 BoxCollider:
@@ -6613,7 +6613,7 @@ Transform:
   m_GameObject: {fileID: 1196337880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9, y: 0, z: -3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 50
@@ -6631,7 +6631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1196337883
 BoxCollider:
@@ -6819,7 +6819,7 @@ Transform:
   m_GameObject: {fileID: 1212800386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 27
@@ -6837,7 +6837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1212800389
 BoxCollider:
@@ -6930,7 +6930,7 @@ Transform:
   m_GameObject: {fileID: 1252312514}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 44
@@ -6948,7 +6948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1252312517
 BoxCollider:
@@ -7041,7 +7041,7 @@ Transform:
   m_GameObject: {fileID: 1279956907}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 58
@@ -7059,7 +7059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1279956910
 BoxCollider:
@@ -7182,7 +7182,7 @@ Transform:
   m_GameObject: {fileID: 1299451926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 0
@@ -7200,7 +7200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1299451929
 BoxCollider:
@@ -7293,7 +7293,7 @@ Transform:
   m_GameObject: {fileID: 1328615756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 2
@@ -7311,7 +7311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1328615759
 BoxCollider:
@@ -7437,7 +7437,7 @@ Transform:
   m_GameObject: {fileID: 1335968278}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 31
@@ -7455,7 +7455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1335968281
 BoxCollider:
@@ -7643,7 +7643,7 @@ Transform:
   m_GameObject: {fileID: 1358424916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 17
@@ -7661,7 +7661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1358424919
 BoxCollider:
@@ -7784,7 +7784,7 @@ Transform:
   m_GameObject: {fileID: 1409933006}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 54
@@ -7802,7 +7802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1409933009
 BoxCollider:
@@ -8020,7 +8020,7 @@ Transform:
   m_GameObject: {fileID: 1438093665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 12
@@ -8038,7 +8038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1438093668
 BoxCollider:
@@ -8131,7 +8131,7 @@ Transform:
   m_GameObject: {fileID: 1452364239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 6
@@ -8149,7 +8149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1452364242
 BoxCollider:
@@ -8242,7 +8242,7 @@ Transform:
   m_GameObject: {fileID: 1495249771}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 9
@@ -8260,7 +8260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1495249774
 BoxCollider:
@@ -8448,7 +8448,7 @@ Transform:
   m_GameObject: {fileID: 1528582375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 35
@@ -8466,7 +8466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1528582378
 BoxCollider:
@@ -8658,15 +8658,8 @@ MonoBehaviour:
   - poolElement:
       tag: Cube
       prefab: {fileID: 3431097250347423958, guid: ac31c81a416296e4a91f7278368cc7f5, type: 3}
-      size: 4
-    spawnTimeGap: 3.5
-    done: 0
-  - poolElement:
-      tag: Sphere
-      prefab: {fileID: 2306250596858075123, guid: 62ea1b512ec74804885884c3a3bea2ec, type: 3}
-      size: 10
-    spawnTimeGap: 1
-    done: 0
+      size: 20
+    spawnTimeGap: 1.5
 --- !u!4 &1590508040
 Transform:
   m_ObjectHideFlags: 0
@@ -8675,7 +8668,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590508035}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.5, y: 0.5, z: 3}
+  m_LocalPosition: {x: -11.5, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8710,7 +8703,7 @@ Transform:
   m_GameObject: {fileID: 1638404468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 37
@@ -8728,7 +8721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1638404471
 BoxCollider:
@@ -8821,7 +8814,7 @@ Transform:
   m_GameObject: {fileID: 1646100186}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 33
@@ -8839,7 +8832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1646100189
 BoxCollider:
@@ -8932,7 +8925,7 @@ Transform:
   m_GameObject: {fileID: 1650851150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 46
@@ -8950,7 +8943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1650851153
 BoxCollider:
@@ -9278,7 +9271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716430830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalPosition: {x: 0, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1078294292}
@@ -9848,7 +9841,7 @@ Transform:
   m_GameObject: {fileID: 1780958730}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 34
@@ -9866,7 +9859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1780958733
 BoxCollider:
@@ -10038,7 +10031,7 @@ Transform:
   m_GameObject: {fileID: 1793875793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 7
@@ -10056,7 +10049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1793875796
 BoxCollider:
@@ -10439,7 +10432,7 @@ Transform:
   m_GameObject: {fileID: 1866093331}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 21
@@ -10457,7 +10450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1866093334
 BoxCollider:
@@ -10550,7 +10543,7 @@ Transform:
   m_GameObject: {fileID: 1897942252}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 30
@@ -10568,7 +10561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1897942255
 BoxCollider:
@@ -10986,7 +10979,7 @@ Transform:
   m_GameObject: {fileID: 1906600013}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 5
@@ -11004,7 +10997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1906600016
 BoxCollider:
@@ -11249,7 +11242,7 @@ Transform:
   m_GameObject: {fileID: 1950192927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 4
@@ -11267,7 +11260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1950192930
 BoxCollider:
@@ -11443,7 +11436,7 @@ Transform:
   m_GameObject: {fileID: 1975132143}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 39
@@ -11461,7 +11454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &1975132146
 BoxCollider:
@@ -11554,7 +11547,7 @@ Transform:
   m_GameObject: {fileID: 2010144356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 57
@@ -11572,7 +11565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2010144359
 BoxCollider:
@@ -11665,7 +11658,7 @@ Transform:
   m_GameObject: {fileID: 2033388312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 42
@@ -11683,7 +11676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2033388315
 BoxCollider:
@@ -11776,7 +11769,7 @@ Transform:
   m_GameObject: {fileID: 2052200882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 0, z: -3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 61
@@ -11794,7 +11787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2052200885
 BoxCollider:
@@ -11982,7 +11975,7 @@ Transform:
   m_GameObject: {fileID: 2071208699}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 29
@@ -12000,7 +11993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2071208702
 BoxCollider:
@@ -12093,7 +12086,7 @@ Transform:
   m_GameObject: {fileID: 2074926277}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 41
@@ -12111,7 +12104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2074926280
 BoxCollider:
@@ -12234,7 +12227,7 @@ Transform:
   m_GameObject: {fileID: 2107875231}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 49
@@ -12252,7 +12245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2107875234
 BoxCollider:
@@ -12345,7 +12338,7 @@ Transform:
   m_GameObject: {fileID: 2109640422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 32
@@ -12363,7 +12356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2109640425
 BoxCollider:
@@ -12456,7 +12449,7 @@ Transform:
   m_GameObject: {fileID: 2139636326}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: 0, z: -4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 0, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1043821516}
   m_RootOrder: 36
@@ -12474,7 +12467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 0}
-  buildAvailableColor: {r: 0.13163051, g: 0.9622642, b: 0.22508606, a: 0.78039217}
+  buildAvailableColor: {r: 0, g: 1, b: 0.0323627, a: 0.78039217}
   buildNotAvailableColor: {r: 0.9150943, g: 0.22014059, b: 0.22014059, a: 0.7372549}
 --- !u!65 &2139636329
 BoxCollider:
