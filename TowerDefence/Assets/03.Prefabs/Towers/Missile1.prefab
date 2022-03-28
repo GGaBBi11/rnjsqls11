@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2968870512169336944}
-  - component: {fileID: -8124914281240763585}
-  m_Layer: 0
+  - component: {fileID: -9056195211491169182}
+  m_Layer: 15
   m_Name: Missile1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,12 +28,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
-  - {fileID: 3225123473568852738}
   - {fileID: 5849537233940623645}
+  - {fileID: 3225123473568852738}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-8124914281240763585
+--- !u!114 &-9056195211491169182
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,15 +42,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 3504298079520075936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13ca4306fb9beca4dab5a31016ecaede, type: 3}
+  m_Script: {fileID: 11500000, guid: a38d943a14ebea74f977a997258172da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 11400000, guid: 046fdae1b6d312a429d46a5950f1ede4, type: 2}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 1048576
-  detectRange: 2
+  detectRange: 3
   turretRotatePoint: {fileID: 5849537233940623645}
+  target: {fileID: 0}
+  missilePrefab: {fileID: 300228509906075176, guid: 5c51e1890181e164492b7bee1bb8b3aa, type: 3}
+  firePoints:
+  - {fileID: 7725054704769447810}
+  damage: 2
+  reloadTime: 1
+--- !u!1 &8557597064875080649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7725054704769447810}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7725054704769447810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8557597064875080649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5849537233940623645}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3225123473569247618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64,7 +100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 188f9a8488e154edf8adf142f5696547, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 188f9a8488e154edf8adf142f5696547, type: 3}
       propertyPath: m_LocalPosition.x
@@ -130,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 67a055578b26444708b7df8956cd1336, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 67a055578b26444708b7df8956cd1336, type: 3}
       propertyPath: m_LocalPosition.x

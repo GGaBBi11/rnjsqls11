@@ -36,6 +36,5 @@ public class Tower : MonoBehaviour
         {
             target = null;
         }
-        
     }
 }

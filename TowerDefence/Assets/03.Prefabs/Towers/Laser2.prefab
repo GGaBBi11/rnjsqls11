@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &265898051486244359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6385238759282682953}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6385238759282682953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265898051486244359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.235, z: 1.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3321959334756043086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3504298079520075936
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,8 +39,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2968870512169336944}
-  - component: {fileID: -8124914281240763585}
-  m_Layer: 0
+  - component: {fileID: 1754014632248761663}
+  m_Layer: 15
   m_Name: Laser2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,7 +63,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-8124914281240763585
+--- !u!114 &1754014632248761663
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,15 +72,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 3504298079520075936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13ca4306fb9beca4dab5a31016ecaede, type: 3}
+  m_Script: {fileID: 11500000, guid: c1a0d9ddf63987f43a356caac31d5045, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 11400000, guid: 0650b28f18e72c24fa9f62d4994b3a90, type: 2}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 1048576
-  detectRange: 2
+  detectRange: 5
   turretRotatePoint: {fileID: 3321959334756043086}
+  target: {fileID: 0}
+  lineRenderer: {fileID: 0}
+  firePoint: {fileID: 0}
 --- !u!1001 &3321959334755914702
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2968870512169336944}
   - component: {fileID: -8124914281240763585}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Laser3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,6 +51,7 @@ MonoBehaviour:
     m_Bits: 1048576
   detectRange: 2
   turretRotatePoint: {fileID: 5813125243321894571}
+  target: {fileID: 0}
 --- !u!1001 &4275724505883364380
 PrefabInstance:
   m_ObjectHideFlags: 0
