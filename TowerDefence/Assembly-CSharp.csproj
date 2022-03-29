@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\Node.cs" />
+    <Compile Include="Assets\02.Scripts\Tower\Tower_Laser.cs" />
     <Compile Include="Assets\02.Scripts\GameManager.cs" />
     <Compile Include="Assets\02.Scripts\Tower\Tower.cs" />
     <Compile Include="Assets\02.Scripts\Tower\TowerInfo.cs" />
@@ -72,7 +73,9 @@
     <Compile Include="Assets\02.Scripts\Tower\Missile.cs" />
     <Compile Include="Assets\02.Scripts\WayPoints.cs" />
     <Compile Include="Assets\02.Scripts\Tower\TowerPreview.cs" />
-    <Compile Include="Assets\02.Scripts\Tower\Tower_Laser.cs" />
+    <Compile Include="Assets\02.Scripts\Buff\Buff.cs" />
+    <Compile Include="Assets\02.Scripts\Buff\BuffManager.cs" />
+    <Compile Include="Assets\02.Scripts\Buff\Buff_Slow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
