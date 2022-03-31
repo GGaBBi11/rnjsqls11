@@ -6,10 +6,9 @@ public class MapSpawner : MonoBehaviour
     public static MapSpawner instance;
     public static float mapMoveSpeed = 1f;
     
-
     [SerializeField] List<Transform> mapTiles;
     [SerializeField] Transform map;
-    [SerializeField] LinkedList<Transform> spawnedMapTiles = new LinkedList<Transform> ();
+    [SerializeField] LinkedList<Transform> spawnedMapTiles = new LinkedList<Transform>();
 
     public static void RemoveFirstAndSpawnNew()
     {
@@ -20,11 +19,8 @@ public class MapSpawner : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        map.GetComponentInChildren<Transform>();
         for (int i = 0; i < map.childCount; i++)
-        {
             spawnedMapTiles.AddLast(map.GetChild(i));
-        }
     }
     private void FixedUpdate()
     {
@@ -33,10 +29,8 @@ public class MapSpawner : MonoBehaviour
 
     private void MoveMapTiles()
     {
-        foreach (var maptile in mapTiles)
-        {
-            
-        }
+        foreach (var maptile in spawnedMapTiles)
+            maptile.position += Vector3.back * mapMoveSpeed * Time.fixedDeltaTime;
     }
     private void SpawnRandomMapTile()
     {
@@ -45,7 +39,6 @@ public class MapSpawner : MonoBehaviour
         float lastMapTileLength = lastMapTile.GetComponent<BoxCollider>().size.z;
         float currentMapTileLength = mapTiles[randomIndex].GetComponent<BoxCollider>().size.z;
         Vector3 spawnPos = lastMapTile.position + Vector3.forward * ((lastMapTileLength + currentMapTileLength) / 2);
-
         Transform spawnedMapTile = Instantiate(mapTiles[randomIndex], 
                                                spawnPos,
                                                Quaternion.identity);

@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 295
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -126,10 +126,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 908, y: 442}
-  m_MaxSize: {x: 22003, y: 10021}
+  m_MinSize: {x: 910, y: 421}
+  m_MaxSize: {x: 22005, y: 10021}
   vertical: 0
-  controlID: 88
+  controlID: 60
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,10 +172,10 @@ MonoBehaviour:
     y: 0
     width: 850
     height: 947
-  m_MinSize: {x: 201, y: 442}
-  m_MaxSize: {x: 4001, y: 8042}
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 89
+  controlID: 61
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,8 +274,8 @@ MonoBehaviour:
     y: 486
     width: 850
     height: 461
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -370,23 +370,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 88530000
-      m_LastClickedID: 21384
-      m_ExpandedIDs: b657ffff88530000
+      m_SelectedIDs: aa86ffff
+      m_LastClickedID: -31062
+      m_ExpandedIDs: 3e81ffffb886ffff5a93ffffe295ffff7097ffffae97ffff26fbffffda3d000098490000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: MapTile1
-        m_OriginalName: MapTile1
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 21268
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -471,33 +471,33 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/03.Prefabs
+    - Assets/02.Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/03.Prefabs
+  - Assets/02.Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\User\Documents\GitHub\rnjsqls11\RunnerGame
+  m_LastProjectPath: C:\GitHub\rnjsqls11\RunnerGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f24b0000
-    m_LastClickedID: 19442
-    m_ExpandedIDs: 00000000d04b000000ca9a3b
+    m_SelectedIDs: 663e0000
+    m_LastClickedID: 15974
+    m_ExpandedIDs: 00000000623e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 06.Materials
-      m_OriginalName: 06.Materials
+      m_Name: 01.Scenes
+      m_OriginalName: 01.Scenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19456
+      m_UserData: 15972
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -514,7 +514,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -545,18 +545,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: ea420000000000002c4c000050430000d64b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: MapSpawner
+      m_OriginalName: MapSpawner
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 4326
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: a432ff5e2258bf54295bf5f854c359ae
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 0
+  m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
@@ -695,9 +695,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.9459355, y: 2.0178647, z: 3.0180113}
+    m_Target: {x: -5.65498, y: -1.4829552, z: 0.73390967}
     speed: 2
-    m_Value: {x: 2.9459355, y: 2.0178647, z: 3.0180113}
+    m_Value: {x: -5.65498, y: -1.4829552, z: 0.73390967}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -731,7 +731,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0.5, y: 0.5}
+      m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -744,13 +744,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12644327, y: 0.31607348, z: -0.042546824, w: -0.9392977}
+    m_Target: {x: -0.24006872, y: 0.53155655, z: -0.16024874, w: -0.7963051}
     speed: 2
-    m_Value: {x: -0.12644449, y: 0.31607652, z: -0.042547233, w: -0.93930674}
+    m_Value: {x: -0.24150825, y: 0.5301299, z: -0.16068645, w: -0.7967534}
   m_Size:
-    m_Target: 5.612486
+    m_Target: 12.124355
     speed: 2
-    m_Value: 5.612486
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
