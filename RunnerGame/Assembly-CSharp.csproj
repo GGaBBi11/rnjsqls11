@@ -54,16 +54,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\WallDetector.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachine.cs" />
-    <Compile Include="Assets\02.Scripts\Player.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerStateMachine.cs" />
+    <Compile Include="Assets\02.Scripts\Player\Player.cs" />
     <Compile Include="Assets\02.Scripts\GameManager.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachinManager.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerStateMachinManager.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerStateMachine_Run.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerStateMachine_Jump.cs" />
     <Compile Include="Assets\02.Scripts\GroundDetector.cs" />
     <Compile Include="Assets\02.Scripts\SpawnMapTrigger.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerStateMachine_Idle.cs" />
     <Compile Include="Assets\02.Scripts\MapSpawner.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Idle.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Run.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Jump.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
