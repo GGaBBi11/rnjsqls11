@@ -64,6 +64,7 @@
     <Compile Include="Assets\02.Scripts\SpawnMapTrigger.cs" />
     <Compile Include="Assets\02.Scripts\Player\PlayerStateMachine_Idle.cs" />
     <Compile Include="Assets\02.Scripts\MapSpawner.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerStateMachine_Fall.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

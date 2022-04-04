@@ -13,7 +13,6 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
         base.Awake();
         groundDetector = GetComponent<GroundDetector>();
         rb = GetComponent<Rigidbody>();
-        keyCode = KeyCode.LeftAlt;
     }
 
     public override bool IsExeuteOk()
@@ -21,7 +20,7 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
         bool isOK = false;
         if (groundDetector.isDetected &&
             (manager.state == PlayerState.Idle ||
-            manager.state == PlayerState.Run))
+             manager.state == PlayerState.Run))
         {
             isOK = true;
         }
@@ -40,7 +39,7 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
                                            0,
                                            rb.velocity.z);
                 rb.AddForce(Vector3.up * jumpForec, ForceMode.Impulse);
-                    state++;
+                state++;
                 break;
             case State.Casting:
                 if (groundDetector.isDetected == false)

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class GroundDetector : MonoBehaviour
 {
-    public float offset = - 0.1f;
+    public float offset = 0.1f;
     public bool isDetected;
     public LayerMask groundLayer;
     Transform tr;
@@ -34,7 +34,7 @@ public class GroundDetector : MonoBehaviour
 
         Gizmos.color = Color.green;
         Gizmos.DrawWireCube(tr.position + detectVec,
-                                        new Vector3(col.radius, offset , col.radius));
+                                        new Vector3(col.radius, offset,col.radius));
     }
 }
 
