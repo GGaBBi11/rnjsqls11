@@ -12,7 +12,7 @@ public class PlayerStateMachine_Fall : PlayerStateMachine
         groundDetector = GetComponent<GroundDetector>();
     }
 
-    public override bool IsExeuteOk()
+    public override bool IsExecuteOK()
     {
         /*bool isOK = false;
         if (manager.state == PlayerState.Idle ||

@@ -10,7 +10,6 @@ public class GroundDetector : MonoBehaviour
     CapsuleCollider col;
     Vector3 detectVec;
     
-
     private void Awake()
     {
         tr = GetComponent<Transform>();
@@ -31,10 +30,9 @@ public class GroundDetector : MonoBehaviour
         tr = GetComponent<Transform>();
         col = GetComponent<CapsuleCollider>();
         detectVec = Vector3.down * (col.height / 2 + offset);
-
         Gizmos.color = Color.green;
         Gizmos.DrawWireCube(tr.position + detectVec,
-                                        new Vector3(col.radius, offset,col.radius));
+                            new Vector3(col.radius, offset, col.radius));
     }
 }
 

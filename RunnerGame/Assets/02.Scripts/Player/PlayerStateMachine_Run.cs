@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStateMachine_Run : PlayerStateMachine
 {
-    public override bool IsExeuteOk()
+    public override bool IsExecuteOK()
     {
         bool isOK = false;
         if (manager.state == PlayerState.Idle)

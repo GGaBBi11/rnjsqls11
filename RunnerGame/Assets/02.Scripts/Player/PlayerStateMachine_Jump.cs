@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStateMachine_Jump : PlayerStateMachine
 {
-    public float jumpForec;
+    public float jumpForce;
     private GroundDetector groundDetector;
     private Rigidbody rb;
 
@@ -15,7 +15,7 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
         rb = GetComponent<Rigidbody>();
     }
 
-    public override bool IsExeuteOk()
+    public override bool IsExecuteOK()
     {
         bool isOK = false;
         if (groundDetector.isDetected &&
@@ -38,7 +38,7 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
                 rb.velocity = new Vector3(rb.velocity.x,
                                            0,
                                            rb.velocity.z);
-                rb.AddForce(Vector3.up * jumpForec, ForceMode.Impulse);
+                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
                 state++;
                 break;
             case State.Casting:
