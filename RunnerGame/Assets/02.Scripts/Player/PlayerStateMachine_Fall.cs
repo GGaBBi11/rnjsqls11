@@ -12,15 +12,14 @@ public class PlayerStateMachine_Fall : PlayerStateMachine
         groundDetector = GetComponent<GroundDetector>();
     }
 
-    public override bool IsExeuteOk()
+    public override bool IsExecuteOK()
     {
-        /*bool isOK = false;
+        bool isOK = false;
         if (manager.state == PlayerState.Idle ||
-            manager.state == PlayerState.Run  ||
+            manager.state == PlayerState.Run ||
             manager.state == PlayerState.Jump)
             isOK = true;
-        return isOK;*/
-        return true;
+        return isOK;
     }
 
     public override PlayerState UpdateState()
@@ -35,13 +34,14 @@ public class PlayerStateMachine_Fall : PlayerStateMachine
                 state = State.OnAction;
                 break;
             case State.Casting:
+                    state++;
                 break;
             case State.OnAction:
                 if (groundDetector.isDetected)
                     state++;
                 break;
             case State.Finish:
-                nextState = PlayerState.Idle;
+                nextState = PlayerState.Run;
                 break;
             default:
                 break;

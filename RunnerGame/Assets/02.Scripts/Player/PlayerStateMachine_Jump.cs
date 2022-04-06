@@ -15,7 +15,7 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
         rb = GetComponent<Rigidbody>();
     }
 
-    public override bool IsExeuteOk()
+    public override bool IsExecuteOK()
     {
         bool isOK = false;
         if (groundDetector.isDetected &&
@@ -35,11 +35,12 @@ public class PlayerStateMachine_Jump : PlayerStateMachine
             case State.Idle:
                 break;
             case State.Prepare:
+                animator.Play("Jump");
                 rb.velocity = new Vector3(rb.velocity.x,
                                            0,
                                            rb.velocity.z);
                 rb.AddForce(Vector3.up * jumpForec, ForceMode.Impulse);
-                state++;
+                    state++;
                 break;
             case State.Casting:
                 if (groundDetector.isDetected == false)

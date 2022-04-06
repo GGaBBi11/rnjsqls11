@@ -8,12 +8,12 @@ public class PlayerStateMachine : MonoBehaviour
     public PlayerState playerState;
     public KeyCode keyCode;
     [HideInInspector] public Animator animator;
-    [HideInInspector] public PlayerStateMachinManager manager;
+    [HideInInspector] public PlayerStateMachineManager manager;
 
     public virtual void Awake()
     {
-        animator = GetComponent<Animator>();
-        manager = GetComponent<PlayerStateMachinManager>();
+        animator = GetComponentInChildren<Animator>();
+        manager = GetComponent<PlayerStateMachineManager>();
     }
 
     // 머신 동작 끝났는지 체크
@@ -30,7 +30,7 @@ public class PlayerStateMachine : MonoBehaviour
     /// </summary>
 
 
-    public virtual bool IsExeuteOk()
+    public virtual bool IsExecuteOK()
     {
         return true;
     }
