@@ -53,15 +53,16 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\02.Scripts\PlayerStateMachineManager.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachine.cs" />
+    <Compile Include="Assets\02.Scripts\PlayerController.cs" />
+    <Compile Include="Assets\02.Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\02.Scripts\CameraHandler.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\3DGamekitLite\Art\Shaders\Swish.shader" />
-    <None Include="Assets\3DGamekitLite\Art\Shaders\Respawn.shader" />
-    <None Include="Assets\3DGamekitLite\Art\Shaders\Triplanar.shader" />
-    <None Include="Assets\3DGamekitLite\Art\Shaders\Shield.shader" />
-    <None Include="Assets\3DGamekitLite\Art\Shaders\Dissolve.shader" />
+    <None Include="Assets\09.3DGamekitLite\Art\Shaders\Swish.shader" />
+    <None Include="Assets\09.3DGamekitLite\Art\Shaders\Respawn.shader" />
+    <None Include="Assets\09.3DGamekitLite\Art\Shaders\Triplanar.shader" />
+    <None Include="Assets\09.3DGamekitLite\Art\Shaders\Shield.shader" />
+    <None Include="Assets\09.3DGamekitLite\Art\Shaders\Dissolve.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -654,9 +655,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
