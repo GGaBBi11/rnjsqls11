@@ -22,6 +22,11 @@ public class CameraHandler : MonoBehaviour
         distance = Vector3.Distance(tr.position, tr.position);
         x = tr.eulerAngles.y;
         y = -tr.eulerAngles.x;
+
+        
+        // 마우스 포인트 활성화 on/off
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
