@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerStateMachineManager : MonoBehaviour
 {
 
-    public PlayerState playerstate;
+    public PlayerState playerState;
 
 
     [SerializeField] private Transform cam;
@@ -14,8 +14,9 @@ public class PlayerStateMachineManager : MonoBehaviour
     private PlayerMove playerMove;
     private PlayerAnimator playerAnimator;
     private CharacterController characterController;
-    private PlayerStateMachine_Jump jumpMachine;
 
+    private PlayerStateMachine[] machines;
+    private PlayerStateMachine currentMachine;
 
 
     private void Awake()
@@ -24,7 +25,8 @@ public class PlayerStateMachineManager : MonoBehaviour
         playerMove = GetComponent<PlayerMove>();
         playerAnimator = GetComponent<PlayerAnimator>();
         characterController = GetComponent<CharacterController>();
-        jumpMachine = GetComponent<PlayerStateMachine_Jump>();
+        machines = GetComponents<PlayerStateMachine>();
+        currentMachine = machines[0];
     }
 
     private void Update()
@@ -42,12 +44,50 @@ public class PlayerStateMachineManager : MonoBehaviour
 
         // Jump
         if (Input.GetKey(KeyCode.Space))
-        {
-            if(jumpMachine.IsExecuteOK())
-               jumpMachine.Execute();
-        }
+            ChangePlayerState(PlayerState.Jump);
 
-        jumpMachine.Workflow();
+        // Attack
+        if (Input.GetMouseButton(0))
+        {
+            if (currentMachine.playerState == PlayerState.Attack &&
+                currentMachine.isFinish &&
+                playerAnimator.GetBool("attackComboOn"))
+            {
+                currentMachine.ForecStop();
+                currentMachine.Execute();
+            }
+
+            ChangePlayerState(PlayerState.Attack);
+        }
+            
+
+        UpdatePlayerState();
+    }
+
+    public void UpdatePlayerState()
+    {
+        if (currentMachine != null)
+            ChangePlayerState(currentMachine.Workflow());
+    }
+
+    public void ChangePlayerState(PlayerState newState)
+    {
+        if (playerState == newState) return;
+        {
+            // 바꾸려는 머신 검색
+            foreach (var sub in machines)
+            {
+                if (sub.playerState == newState &&
+                    sub.IsExecuteOK())          // 변경하려는 머신이 실행가능 상태라면
+                {
+                    currentMachine.ForecStop(); // 현재 돌아가는 머신 중단
+                    currentMachine = sub;       // 현재 머신 갱신
+                    currentMachine.Execute();   // 현재 머신 가동
+                    playerState = newState;     // 상태 변경
+                    return;
+                }
+            }
+        }
     }
 }
 
@@ -56,4 +96,5 @@ public enum PlayerState
     Idle,
     Move,
     Jump,
+    Attack,
 }

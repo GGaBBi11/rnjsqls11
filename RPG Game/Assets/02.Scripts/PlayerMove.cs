@@ -6,7 +6,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float gravity = 9.81f;
 
     private Vector3 _move;
-    private CharacterController characterController;
+    public CharacterController characterController;
 
     private void Awake()
     {

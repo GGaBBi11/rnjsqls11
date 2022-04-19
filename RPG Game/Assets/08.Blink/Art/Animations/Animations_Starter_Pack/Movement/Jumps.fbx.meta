@@ -120,11 +120,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: human_male_jumpup
-      takeName: human_male_jumpup
+      name: Jump_Down
+      takeName: human_male_jumpdown
       internalID: 0
-      firstFrame: 2
-      lastFrame: 18
+      firstFrame: 35.1
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -135,32 +135,32 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 0
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 0
       keepOriginalPositionXZ: 1
       heightFromFeet: 1
-      mirror: 1
+      mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 2
+      additiveReferencePoseFrame: 18
     - serializedVersion: 16
       name: Jump
       takeName: human_male_jump_all
       internalID: 0
-      firstFrame: 13
-      lastFrame: 19
+      firstFrame: 15
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1

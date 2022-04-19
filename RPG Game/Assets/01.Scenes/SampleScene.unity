@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   gravity: 9.81
+  characterController: {fileID: 309749303}
 --- !u!143 &309749303
 CharacterController:
   m_ObjectHideFlags: 0
@@ -167,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b83d2ff592cc745ace1af9ab7bee56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerstate: 0
+  playerState: 0
   cam: {fileID: 2294446597371994334}
 --- !u!1001 &375884065
 PrefabInstance:
@@ -519,6 +520,8 @@ GameObject:
   - component: {fileID: 2294446597371706561}
   - component: {fileID: 2294446597371706560}
   - component: {fileID: 2294446597371706559}
+  - component: {fileID: 2294446597371706562}
+  - component: {fileID: 2294446597371706563}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -554,7 +557,8 @@ MonoBehaviour:
   state: 0
   manager: {fileID: 0}
   playerAnimator: {fileID: 0}
-  deltaMove: 30
+  controller: {fileID: 309749303}
+  deltaMove: 800
 --- !u!114 &2294446597371706561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,6 +575,41 @@ MonoBehaviour:
   state: 0
   manager: {fileID: 0}
   playerAnimator: {fileID: 0}
+  controller: {fileID: 309749303}
+--- !u!114 &2294446597371706562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2294446597371706558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3ae3fef02314c4e9e872bbf55cfabb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerState: 1
+  state: 0
+  manager: {fileID: 0}
+  playerAnimator: {fileID: 0}
+  controller: {fileID: 309749303}
+--- !u!114 &2294446597371706563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2294446597371706558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0abf4394c000d4e834e1618da6bbd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerState: 3
+  state: 0
+  manager: {fileID: 0}
+  playerAnimator: {fileID: 0}
+  controller: {fileID: 309749303}
 --- !u!4 &2294446597371994334
 Transform:
   m_ObjectHideFlags: 0
