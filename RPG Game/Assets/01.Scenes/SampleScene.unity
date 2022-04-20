@@ -558,7 +558,7 @@ MonoBehaviour:
   manager: {fileID: 0}
   playerAnimator: {fileID: 0}
   controller: {fileID: 309749303}
-  deltaMove: 800
+  deltaMove: 555
 --- !u!114 &2294446597371706561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,6 +610,7 @@ MonoBehaviour:
   manager: {fileID: 0}
   playerAnimator: {fileID: 0}
   controller: {fileID: 309749303}
+  comboTerm: 3
 --- !u!4 &2294446597371994334
 Transform:
   m_ObjectHideFlags: 0

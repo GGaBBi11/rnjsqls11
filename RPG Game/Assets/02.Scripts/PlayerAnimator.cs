@@ -23,6 +23,11 @@ public class PlayerAnimator : MonoBehaviour
     public void SetFloat(string name, float value) =>
         animator.SetFloat(name, value);
 
+    public int GetInt(string name) =>
+        animator.GetInteger(name);
+
+    public void SetInt(string name, int value) =>
+        animator.SetInteger(name, value);
     public void SetBool(string name, bool value) =>
         animator.SetBool(name, value);
 

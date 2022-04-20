@@ -54,13 +54,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\PlayerStateMachine.cs" />
+    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Attack.cs" />
     <Compile Include="Assets\02.Scripts\PlayerStateMachine_Jump.cs" />
     <Compile Include="Assets\02.Scripts\PlayerStateMachineManager.cs" />
+    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Move.cs" />
     <Compile Include="Assets\02.Scripts\CameraHandler.cs" />
     <Compile Include="Assets\02.Scripts\PlayerMove.cs" />
     <Compile Include="Assets\02.Scripts\PlayerAnimator.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Move.cs" />
-    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Attack.cs" />
+    <Compile Include="Assets\02.Scripts\PlayerStateMachine_Blocking.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\09.3DGamekitLite\Art\Shaders\Swish.shader" />
