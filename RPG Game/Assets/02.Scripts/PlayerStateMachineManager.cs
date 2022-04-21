@@ -48,18 +48,7 @@ public class PlayerStateMachineManager : MonoBehaviour
 
         // Attack
         if (Input.GetMouseButton(0))
-        {
-            if (currentMachine.playerState == PlayerState.Attack &&
-                currentMachine.isFinish &&
-                playerAnimator.GetBool("attackComboOn") &&
-                playerAnimator.GetInt("attackComboCount") < 3)
-            {
-                currentMachine.ForecStop();
-                currentMachine.Execute();
-            }
             ChangePlayerState(PlayerState.Attack);
-        }
-            
 
         UpdatePlayerState();
     }
@@ -97,5 +86,4 @@ public enum PlayerState
     Move,
     Jump,
     Attack,
-    Blocking,
 }

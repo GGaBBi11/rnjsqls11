@@ -7,18 +7,19 @@ public class PlayerStateMachine_Move : PlayerStateMachine
     public override bool IsExecuteOK()
     {
         if (controller.isGrounded)
-
-            return true;
+                return true;
             return false;
     }
 
     public override PlayerState Workflow()
     {
         PlayerState nextState = playerState;
+
         switch (state)
         {
             case State.Idle:
                 break;
+                playerAnimator.SetTrigger("doMove");
             case State.Prepare:
                 state++;
                 break;
